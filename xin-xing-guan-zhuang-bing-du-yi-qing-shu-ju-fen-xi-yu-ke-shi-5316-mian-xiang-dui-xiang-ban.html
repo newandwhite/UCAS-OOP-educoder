@@ -1,0 +1,1062 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>新型冠状病毒疫情数据分析与可视化-面向对象版 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="lei-yu-dui-xiang.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="javachu-ti-yan.html">
+            
+                <a href="javachu-ti-yan.html">
+            
+                    
+                    Java初体验
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="lei-yu-dui-xiang.html">
+            
+                <a href="lei-yu-dui-xiang.html">
+            
+                    
+                    类与对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="xin-xing-guan-zhuang-bing-du-yi-qing-shu-ju-fen-xi-yu-ke-shi-5316-mian-xiang-dui-xiang-ban.html">
+            
+                <a href="xin-xing-guan-zhuang-bing-du-yi-qing-shu-ju-fen-xi-yu-ke-shi-5316-mian-xiang-dui-xiang-ban.html">
+            
+                    
+                    新型冠状病毒疫情数据分析与可视化-面向对象版
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >新型冠状病毒疫情数据分析与可视化-面向对象版</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x7B2C;1&#x5173;&#xFF1A;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;sir&#x6A21;&#x578B;-&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x6C42;&#x89E3;">&#x7B2C;1&#x5173;&#xFF1A;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;SIR&#x6A21;&#x578B;-&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x6C42;&#x89E3;</h3>
+<h4 id="&#x4EFB;&#x52A1;&#x63CF;&#x8FF0;">&#x4EFB;&#x52A1;&#x63CF;&#x8FF0; </h4>
+<p>&#x65B0;&#x578B;&#x51A0;&#x72B6;&#x75C5;&#x6BD2;&#x611F;&#x67D3;&#x7684;&#x80BA;&#x708E;&#x75AB;&#x60C5;&#x5F15;&#x53D1;&#x5168;&#x7403;&#x5E7F;&#x6CDB;&#x5173;&#x6CE8;&#x3002;2020&#x5E74;3&#x6708;11&#x65E5;&#xFF0C;&#x4E16;&#x754C;&#x536B;&#x751F;&#x7EC4;&#x7EC7;&#x603B;&#x5E72;&#x4E8B;&#x8C2D;&#x5FB7;&#x585E;&#x5BA3;&#x5E03;&#xFF0C;&#x6839;&#x636E;&#x8BC4;&#x4F30;&#xFF0C;&#x4E16;&#x536B;&#x7EC4;&#x7EC7;&#x8BA4;&#x4E3A;&#x5F53;&#x524D;&#x65B0;&#x51A0;&#x80BA;&#x708E;&#x75AB;&#x60C5;&#x53EF;&#x88AB;&#x79F0;&#x4E3A;&#x5168;&#x7403;&#x5927;&#x6D41;&#x884C;&#xFF08;pandemic&#xFF09;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5229;&#x7528;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#xFF0C;&#x5BF9;&#x75BE;&#x75C5;&#x7684;&#x53D1;&#x5C55;&#x8FDB;&#x884C;&#x7B80;&#x5355;&#x9884;&#x6D4B;&#xFF0C;&#x8FD9;&#x5BF9;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5206;&#x6790;&#x5177;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x53C2;&#x8003;&#x4EF7;&#x503C;&#x3002;</p>
+<p>&#x672C;&#x5173;&#x7684;&#x76EE;&#x6807;&#x5C31;&#x662F;&#x8BA9;&#x5B66;&#x4E60;&#x8005;&#x5229;&#x7528; Python &#x7F16;&#x7A0B;&#x5B9E;&#x73B0;&#x7ECF;&#x5178;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x2014;&#x2014;SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x5BF9;&#x75AB;&#x60C5;&#x8D8B;&#x52BF;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3002;&#x672C;&#x5173;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x91C7;&#x7528;&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5BF9;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8FDB;&#x884C;&#x6A21;&#x62DF;&#x3002;</p>
+<h4 id="&#x76F8;&#x5173;&#x77E5;&#x8BC6;">&#x76F8;&#x5173;&#x77E5;&#x8BC6; </h4>
+<h5 id="sir&#x6A21;&#x578B;">SIR&#x6A21;&#x578B; </h5>
+<blockquote>
+<p>SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x4F20;&#x64AD;&#x6A21;&#x578B;&#xFF0C;&#x662F;&#x75BE;&#x75C5;&#x53CA;&#x4FE1;&#x606F;&#x4F20;&#x64AD;&#x8FC7;&#x7A0B;&#x7684;&#x62BD;&#x8C61;&#x63CF;&#x8FF0;&#x3002;&#x662F;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x4E2D;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x6A21;&#x578B;&#x3002;&#x6B64;&#x6A21;&#x578B;&#x80FD;&#x591F;&#x8F83;&#x4E3A;&#x7C97;&#x7565;&#x5730;&#x5C55;&#x793A;&#x51FA;&#x4E00;&#x79CD;&#x4F20;&#x67D3;&#x75C5;&#x4ECE;&#x53D1;&#x75C5;&#x5230;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5176;&#x6838;&#x5FC3;&#x5728;&#x4E8E;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x3002;</p>
+</blockquote>
+<ul>
+<li>S &#x7C7B;&#xFF1A;&#x6613;&#x611F;&#x8005;&#xFF08;Susceptible&#xFF09;</li>
+<li>I &#x7C7B;&#xFF1A;&#x611F;&#x67D3;&#x8005;&#xFF08;Infective&#xFF09;</li>
+<li>R &#x7C7B;&#xFF1A;&#x79FB;&#x51FA;&#x8005;&#xFF08;Removal&#xFF09;
+<img src="pic/SIRmodel.png" alt=""></li>
+</ul>
+<p>&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7EC4;&#x8868;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>$$
+\left{<br>     \begin{array}{lr}<br>     S&apos; = -\beta SI &amp;  \<br>     I&apos; = \beta SI-\gamma I &amp; \<br>     R&apos; = \gamma I &amp;<br>     \end{array}<br>\right.  </p>
+<p>$$</p>
+<p>&#x5176;&#x4E2D;S&#x2032;,I&#x2032;,R&#x2032;&#x5206;&#x522B;&#x8868;&#x793A;S,I,R&#x5173;&#x4E8E;&#x65F6;&#x95F4;t&#x7684;&#x5BFC;&#x6570;&#xFF0C;&#x4E0B;&#x9762;&#x5C06;&#x5176;&#x7EC4;&#x5408;&#x4E3A;&#x5411;&#x91CF;&#x5F62;&#x5F0F;&#x5E76;&#x7528;&#x51FD;&#x6570;f&#x8868;&#x793A;&#xFF0C;&#x5F97;:$$(S&apos;,I&apos;,R&apos;)=f(S,I,R)=(&#x2212;\beta SI,\beta SI&#x2212;\gamma I,\gamma I)$$ &#x5176;&#x4E2D;:&#x3B2;&#x4E3A;&#x611F;&#x67D3;&#x7CFB;&#x6570;&#xFF0C;&#x4EE3;&#x8868;&#x6613;&#x611F;&#x4EBA;&#x7FA4;&#x4E0E;&#x4F20;&#x67D3;&#x6E90;&#x63A5;&#x89E6;&#x88AB;&#x611F;&#x67D3;&#x7684;&#x6982;&#x7387;&#xFF0C;&#x5373;&#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;&#xFF1B;&#x3B3;&#x4E3A;&#x9694;&#x79BB;(&#x6062;&#x590D;)&#x7CFB;&#x6570;&#xFF0C;&#x4E00;&#x822C;&#x5BF9;&#x5176;&#x5012;&#x6570;1/&#x3B3;&#x66F4;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x4EE3;&#x8868;&#x4E86;&#x5E73;&#x5747;&#x611F;&#x67D3;&#x65F6;&#x95F4;&#xFF1B;S,I&#x5B9A;&#x4E49;&#x89C1;&#x4E0A;&#xFF0C;S(0)&#x4E3A;&#x521D;&#x59CB;&#x6613;&#x611F;&#x4EBA;&#x6570;&#xFF0C;I(0)&#x4E3A;&#x521D;&#x59CB;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x3002;</p>
+<h5 id="&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;">&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5; </h5>
+<blockquote>
+<p>&#x6B27;&#x62C9;&#x65B9;&#x6CD5;&#xFF0C;&#x547D;&#x540D;&#x81EA;&#x5B83;&#x7684;&#x53D1;&#x660E;&#x8005;&#x83B1;&#x6602;&#x54C8;&#x5FB7;&#xB7;&#x6B27;&#x62C9;&#xFF0C;&#x662F;&#x4E00;&#x79CD;&#x4E00;&#x9636;&#x6570;&#x503C;&#x65B9;&#x6CD5;&#xFF0C;&#x7528;&#x4EE5;&#x5BF9;&#x7ED9;&#x5B9A;&#x521D;&#x503C;&#x7684;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#xFF08;&#x5373;&#x521D;&#x503C;&#x95EE;&#x9898;&#xFF09;&#x6C42;&#x89E3;&#x3002;&#x5B83;&#x662F;&#x4E00;&#x79CD;&#x89E3;&#x51B3;&#x6570;&#x503C;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7684;&#x6700;&#x57FA;&#x672C;&#x7684;&#x4E00;&#x7C7B;&#x663E;&#x578B;&#x65B9;&#x6CD5;&#xFF08;Explicit method&#xFF09;&#x3002;<br>&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x5F62;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;<br><img src="pic/forwardEuler.png" alt=""></p>
+<p>&#x4EE3;&#x7801;&#x793A;&#x4F8B;&#x5982;&#x4E0B;:</p>
+</blockquote>
+<pre><code class="lang-py">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">forwardEuler</span><span class="hljs-params">(f, y0, x)</span>:</span>
+        y = [y0] * len(x)
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(x)<span class="hljs-number">-1</span>):
+            h = x[k+<span class="hljs-number">1</span>]-x[k]
+            y[k+<span class="hljs-number">1</span>] = y[k] + h * f(x[k], y[k])
+        <span class="hljs-keyword">return</span> y  <span class="hljs-comment"># y = [y0, y1, ..., yn]</span>
+</code></pre>
+<h4 id="&#x7F16;&#x7A0B;&#x8981;&#x6C42;">&#x7F16;&#x7A0B;&#x8981;&#x6C42; </h4>
+<p>&#x5229;&#x7528;&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5B9E;&#x73B0;SIR&#x7C7B;&#xFF0C;&#x5176;&#x5C5E;&#x6027;</p>
+<ul>
+<li><code>beta</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B2;</li>
+<li><code>gamma</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B3;</li>
+<li><code>y0</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;(S, I, R)&#x4EBA;&#x6570;</li>
+</ul>
+<p>&#x5E76;&#x7F16;&#x5199;&#x65B9;&#x6CD5;</p>
+<ul>
+<li><code>f(self, y)</code>
+: &#x5B9E;&#x73B0;SIR&#x6A21;&#x578B;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;y&#x662F;&#x5F53;&#x524D;&#x72B6;&#x6001;[S, I, R]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x9700;&#x8FD4;&#x56DE;[S&apos;,I&apos;,R&apos;]</li>
+<li><code>solve(self, x)</code>
+: &#x5B9E;&#x73B0;&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;x&#x662F;&#x5217;&#x8868;[0, .., t-1]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;t&#x5929;&#x5185;&#x6BCF;&#x5929;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x7684;&#x5217;&#x8868; (&#x5217;&#x8868;&#x5927;&#x5C0F;&#x4E3A;&#x5929;&#x6570;t)&#x3002;&#xFF08;&#x6CE8;&#x610F;&#xFF1A;&#x672C;&#x573A;&#x666F;&#x4E2D;&#x5E94;&#x7528;&#x524D;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x65F6;&#xFF0C;forwardEuler()&#x51FD;&#x6570;&#x7B2C;5&#x884C;f(x[k],y[k]) &#x4E2D;x[k]&#x5BF9;f&#x51FD;&#x6570;&#x7684;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x5F71;&#x54CD;&#xFF09;</li>
+</ul>
+<h4 id="&#x4EFB;&#x52A1;&#x63D0;&#x793A;">&#x4EFB;&#x52A1;&#x63D0;&#x793A; </h4>
+<p><strong>&#x6D4B;&#x8BD5;&#x8F93;&#x5165;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    N     = <span class="hljs-number">1e8</span>                  <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;  </span>
+    gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;   </span>
+    y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]        <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]  </span>
+    t = range(<span class="hljs-number">0</span>,<span class="hljs-number">5</span>,<span class="hljs-number">1</span>)          <span class="hljs-comment"># &#x6A21;&#x62DF;5&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;  </span>
+    beta = <span class="hljs-number">1.0</span>/N               <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+    simulation = SIR(beta=beta, gamma=gamma, y0=y0)   
+    y = simulation.solve(t)
+</code></pre>
+<p><strong>&#x9884;&#x671F;&#x8F93;&#x51FA;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">1.9600</span>, <span class="hljs-number">3.8416</span>, <span class="hljs-number">7.5295</span>, <span class="hljs-number">14.7579</span>]
+</code></pre>
+<hr>
+<p>&#x5F00;&#x59CB;&#x4F60;&#x7684;&#x4EFB;&#x52A1;&#x5427;&#xFF0C;&#x795D;&#x4F60;&#x6210;&#x529F;&#xFF01;</p>
+<p>step_1_framework.py</p>
+<pre><code class="lang-py"><span class="hljs-comment"># import ode_7 as ode</span>
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myprint_list</span><span class="hljs-params">(l)</span>:</span>
+    <span class="hljs-keyword">if</span> type(l)!=list:
+        print(<span class="hljs-string">&apos;Error: the result is not a list&apos;</span>)
+    <span class="hljs-keyword">else</span>:
+        print(<span class="hljs-string">&apos;[&apos;</span>, end=<span class="hljs-string">&apos;&apos;</span>)
+        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(y_f)<span class="hljs-number">-1</span>):
+            print(<span class="hljs-string">&quot;%.4f, &quot;</span>%y_f[i][<span class="hljs-number">1</span>], end=<span class="hljs-string">&apos;&apos;</span>)
+        print(<span class="hljs-string">&quot;%.4f]&quot;</span>%y_f[len(y_f)<span class="hljs-number">-1</span>][<span class="hljs-number">1</span>])<span class="hljs-comment">#&#x4E0A;&#x9762;&#x548C;&#x8FD9;&#x91CC;&#x7684;printf&#x8981;&#x6539;&#xFF0C;&#x6BCF;&#x4E00;&#x9879;&#x662F;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#xFF0C;&#x53EA;&#x4FDD;&#x7559;&#x7B2C;&#x4E8C;&#x9879;</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SIR</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, beta, gamma, y0)</span>:</span>
+        self.beta = beta; self.gamma = gamma; self.y0 = y0  <span class="hljs-comment"># &#x53C2;&#x6570;&#x5C5E;&#x6027;</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(self, y)</span>:</span> <span class="hljs-comment"># y&#x4E3A;&#x5F53;&#x524D;&#x72B6;&#x6001;&#xFF0C;&#x5373;&#x5217;&#x8868;[S,I,R]</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        diff = np.zeros(<span class="hljs-number">3</span>)
+        s,i,r = y
+        diff[<span class="hljs-number">0</span>] = - self.beta * s * i
+        diff[<span class="hljs-number">1</span>] = self.beta * s * i - self.gamma * i
+        diff[<span class="hljs-number">2</span>] = self.gamma * i
+        <span class="hljs-keyword">return</span> diff
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">solve</span><span class="hljs-params">(self, t)</span>:</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        y = [y0] * len(t);
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(t)<span class="hljs-number">-1</span>):
+            h = t[k+<span class="hljs-number">1</span>]-t[k]
+            y[k+<span class="hljs-number">1</span>] = y[k] + h * self.f(y[k])
+        <span class="hljs-keyword">return</span> y 
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+
+N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09; </span>
+y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38;, &#x5373;[S0, I0, R0]</span>
+beta = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x611F;&#x67D3;&#x7CFB;&#x6570;</span>
+simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+<span class="hljs-keyword">for</span> T <span class="hljs-keyword">in</span> [<span class="hljs-number">5</span>, <span class="hljs-number">10</span>, <span class="hljs-number">20</span>]:
+    t   = range(<span class="hljs-number">0</span>, T, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;T&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+    y_f = simulation.solve(t)
+    myprint_list(y_f)
+</code></pre>
+<hr>
+<h3 id="&#x7B2C;2&#x5173;&#xFF1A;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;sir&#x6A21;&#x578B;-&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x6C42;&#x89E3;">&#x7B2C;2&#x5173;&#xFF1A;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;SIR&#x6A21;&#x578B;-&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x6C42;&#x89E3;</h3>
+<h4 id="&#x4EFB;&#x52A1;&#x63CF;&#x8FF0;">&#x4EFB;&#x52A1;&#x63CF;&#x8FF0; </h4>
+<p>&#x65B0;&#x578B;&#x51A0;&#x72B6;&#x75C5;&#x6BD2;&#x611F;&#x67D3;&#x7684;&#x80BA;&#x708E;&#x75AB;&#x60C5;&#x5F15;&#x53D1;&#x5168;&#x7403;&#x5E7F;&#x6CDB;&#x5173;&#x6CE8;&#x3002;2020&#x5E74;3&#x6708;11&#x65E5;&#xFF0C;&#x4E16;&#x754C;&#x536B;&#x751F;&#x7EC4;&#x7EC7;&#x603B;&#x5E72;&#x4E8B;&#x8C2D;&#x5FB7;&#x585E;&#x5BA3;&#x5E03;&#xFF0C;&#x6839;&#x636E;&#x8BC4;&#x4F30;&#xFF0C;&#x4E16;&#x536B;&#x7EC4;&#x7EC7;&#x8BA4;&#x4E3A;&#x5F53;&#x524D;&#x65B0;&#x51A0;&#x80BA;&#x708E;&#x75AB;&#x60C5;&#x53EF;&#x88AB;&#x79F0;&#x4E3A;&#x5168;&#x7403;&#x5927;&#x6D41;&#x884C;&#xFF08;pandemic&#xFF09;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5229;&#x7528;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#xFF0C;&#x5BF9;&#x75BE;&#x75C5;&#x7684;&#x53D1;&#x5C55;&#x8FDB;&#x884C;&#x7B80;&#x5355;&#x9884;&#x6D4B;&#xFF0C;&#x8FD9;&#x5BF9;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5206;&#x6790;&#x5177;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x53C2;&#x8003;&#x4EF7;&#x503C;&#x3002;</p>
+<p>&#x672C;&#x5173;&#x7684;&#x76EE;&#x6807;&#x5C31;&#x662F;&#x8BA9;&#x5B66;&#x4E60;&#x8005;&#x5229;&#x7528; Python &#x7F16;&#x7A0B;&#x5B9E;&#x73B0;&#x7ECF;&#x5178;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x2014;&#x2014;SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x5BF9;&#x75AB;&#x60C5;&#x8D8B;&#x52BF;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3002;&#x672C;&#x5173;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x91C7;&#x7528;&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5BF9;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8FDB;&#x884C;&#x6A21;&#x62DF;&#x3002;</p>
+<h4 id="&#x76F8;&#x5173;&#x77E5;&#x8BC6;">&#x76F8;&#x5173;&#x77E5;&#x8BC6; </h4>
+<h5 id="sir&#x6A21;&#x578B;">SIR&#x6A21;&#x578B; </h5>
+<blockquote>
+<p>SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x4F20;&#x64AD;&#x6A21;&#x578B;&#xFF0C;&#x662F;&#x75BE;&#x75C5;&#x53CA;&#x4FE1;&#x606F;&#x4F20;&#x64AD;&#x8FC7;&#x7A0B;&#x7684;&#x62BD;&#x8C61;&#x63CF;&#x8FF0;&#x3002;&#x662F;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x4E2D;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x6A21;&#x578B;&#x3002;&#x6B64;&#x6A21;&#x578B;&#x80FD;&#x591F;&#x8F83;&#x4E3A;&#x7C97;&#x7565;&#x5730;&#x5C55;&#x793A;&#x51FA;&#x4E00;&#x79CD;&#x4F20;&#x67D3;&#x75C5;&#x4ECE;&#x53D1;&#x75C5;&#x5230;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5176;&#x6838;&#x5FC3;&#x5728;&#x4E8E;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x3002;</p>
+</blockquote>
+<ul>
+<li>S &#x7C7B;&#xFF1A;&#x6613;&#x611F;&#x8005;&#xFF08;Susceptible&#xFF09;</li>
+<li>I &#x7C7B;&#xFF1A;&#x611F;&#x67D3;&#x8005;&#xFF08;Infective&#xFF09;</li>
+<li>R &#x7C7B;&#xFF1A;&#x79FB;&#x51FA;&#x8005;&#xFF08;Removal&#xFF09; 
+<img src="pic/SIRmodel.png" alt=""></li>
+</ul>
+<p>&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7EC4;&#x8868;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>$$
+\left{<br>     \begin{array}{lr}<br>     S&apos; = -\beta SI &amp;  \<br>     I&apos; = \beta SI-\gamma I &amp; \<br>     R&apos; = \gamma I &amp;<br>     \end{array}<br>\right.  </p>
+<p>$$</p>
+<p>&#x5176;&#x4E2D;S&#x2032;,I&#x2032;,R&#x2032;&#x5206;&#x522B;&#x8868;&#x793A;S,I,R&#x5173;&#x4E8E;&#x65F6;&#x95F4;t&#x7684;&#x5BFC;&#x6570;&#xFF0C;&#x4E0B;&#x9762;&#x5C06;&#x5176;&#x7EC4;&#x5408;&#x4E3A;&#x5411;&#x91CF;&#x5F62;&#x5F0F;&#x5E76;&#x7528;&#x51FD;&#x6570;f&#x8868;&#x793A;&#xFF0C;&#x5F97;:$$(S&apos;,I&apos;,R&apos;)=f(S,I,R)=(&#x2212;\beta SI,\beta SI&#x2212;\gamma I,\gamma I)$$ &#x5176;&#x4E2D;:&#x3B2;&#x4E3A;&#x611F;&#x67D3;&#x7CFB;&#x6570;&#xFF0C;&#x4EE3;&#x8868;&#x6613;&#x611F;&#x4EBA;&#x7FA4;&#x4E0E;&#x4F20;&#x67D3;&#x6E90;&#x63A5;&#x89E6;&#x88AB;&#x611F;&#x67D3;&#x7684;&#x6982;&#x7387;&#xFF0C;&#x5373;&#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;&#xFF1B;&#x3B3;&#x4E3A;&#x9694;&#x79BB;(&#x6062;&#x590D;)&#x7CFB;&#x6570;&#xFF0C;&#x4E00;&#x822C;&#x5BF9;&#x5176;&#x5012;&#x6570;1/&#x3B3;&#x66F4;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x4EE3;&#x8868;&#x4E86;&#x5E73;&#x5747;&#x611F;&#x67D3;&#x65F6;&#x95F4;&#xFF1B;S,I&#x5B9A;&#x4E49;&#x89C1;&#x4E0A;&#xFF0C;S(0)&#x4E3A;&#x521D;&#x59CB;&#x6613;&#x611F;&#x4EBA;&#x6570;&#xFF0C;I(0)&#x4E3A;&#x521D;&#x59CB;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x3002;</p>
+<h5 id="&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;">&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5; </h5>
+<blockquote>
+<p>&#x6B27;&#x62C9;&#x65B9;&#x6CD5;&#xFF0C;&#x547D;&#x540D;&#x81EA;&#x5B83;&#x7684;&#x53D1;&#x660E;&#x8005;&#x83B1;&#x6602;&#x54C8;&#x5FB7;&#xB7;&#x6B27;&#x62C9;&#xFF0C;&#x662F;&#x4E00;&#x79CD;&#x4E00;&#x9636;&#x6570;&#x503C;&#x65B9;&#x6CD5;&#xFF0C;&#x7528;&#x4EE5;&#x5BF9;&#x7ED9;&#x5B9A;&#x521D;&#x503C;&#x7684;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#xFF08;&#x5373;&#x521D;&#x503C;&#x95EE;&#x9898;&#xFF09;&#x6C42;&#x89E3;&#x3002;&#x5B83;&#x662F;&#x4E00;&#x79CD;&#x89E3;&#x51B3;&#x6570;&#x503C;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7684;&#x6700;&#x57FA;&#x672C;&#x7684;&#x4E00;&#x7C7B;&#x663E;&#x578B;&#x65B9;&#x6CD5;&#xFF08;Explicit method&#xFF09;&#x3002;<br>&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x5F62;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;<br><img src="pic/backwardEuler.png" alt=""></p>
+</blockquote>
+<p>&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#x7684;&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;&#x5982;&#x4E0B;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#xFF1A;yp&#x200B;=yn&#x200B;+hf(yn&#x200B;,tn&#x200B;)yn+1&#x200B;=yn&#x200B;+hf(yp&#x200B;,tn+1&#x200B;)</p>
+<h4 id="&#x7F16;&#x7A0B;&#x8981;&#x6C42;">&#x7F16;&#x7A0B;&#x8981;&#x6C42; </h4>
+<p>&#x5229;&#x7528;&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5B9E;&#x73B0;SIR&#x7C7B;&#xFF0C;&#x5176;&#x5C5E;&#x6027;</p>
+<ul>
+<li><code>beta</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B2;</li>
+<li><code>gamma</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B3;</li>
+<li><code>y0</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;(S, I, R)&#x4EBA;&#x6570;</li>
+</ul>
+<p>&#x5E76;&#x7F16;&#x5199;&#x65B9;&#x6CD5;</p>
+<ul>
+<li><code>f(self,y)</code>: &#x5B9E;&#x73B0;SIR&#x6A21;&#x578B;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;y&#x662F;&#x5F53;&#x524D;&#x72B6;&#x6001;[S, I, R]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x9700;&#x8FD4;&#x56DE;[S&apos;,I&apos;,R&apos;]</li>
+<li><code>solve(self,x)</code>: &#x5B9E;&#x73B0;&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;x&#x662F;&#x5217;&#x8868;[0, .., t-1]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;t&#x5929;&#x5185;&#x6BCF;&#x5929;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x7684;&#x5217;&#x8868; (&#x5217;&#x8868;&#x5927;&#x5C0F;&#x4E3A;&#x5929;&#x6570;t)&#x3002;&#xFF08;&#x6CE8;&#x610F;&#xFF1A;&#x672C;&#x573A;&#x666F;&#x4E2D;&#x5E94;&#x7528;&#x540E;&#x5411;&#x6B27;&#x62C9;&#x6CD5;&#x65F6;&#xFF0C;<code>f(yn+1&#x200B;,tn+1&#x200B;)</code>&#x4E2D;<code>tn+1&#x200B;</code>&#x5BF9;f&#x51FD;&#x6570;&#x7684;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x5F71;&#x54CD;&#xFF09;</li>
+</ul>
+<h4 id="&#x4EFB;&#x52A1;&#x63D0;&#x793A;">&#x4EFB;&#x52A1;&#x63D0;&#x793A; </h4>
+<p><strong>&#x6D4B;&#x8BD5;&#x8F93;&#x5165;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    N     = <span class="hljs-number">1e8</span>                <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;  </span>
+    gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>          <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;   </span>
+    y0    = (N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>)     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; (S0, I0, R0)  </span>
+    t = range(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>, <span class="hljs-number">1</span>)     <span class="hljs-comment"># &#x6A21;&#x62DF;5&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;  </span>
+    beta = <span class="hljs-number">1.0</span>/N           <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+    simulation = SIR(beta=beta, gamma=gamma, y0=y0)   
+    y = simulation.solve(t)
+</code></pre>
+<p><strong>&#x9884;&#x671F;&#x8F93;&#x51FA;</strong>&#xFF1A;</p>
+<p><code>(1.0, 2.8815999512000006, 8.303618007564571, 23.927702212048267, 68.95003808706701, 198.68619205109314, 572.5321567912988, 1649.7922686666125, 4753.905269148689, 13697.723116003775, 39461.97549382348)</code></p>
+<hr>
+<p>&#x5F00;&#x59CB;&#x4F60;&#x7684;&#x4EFB;&#x52A1;&#x5427;&#xFF0C;&#x795D;&#x4F60;&#x6210;&#x529F;&#xFF01;</p>
+<p>step_2_framework.py</p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myprint_list</span><span class="hljs-params">(l)</span>:</span>
+    <span class="hljs-keyword">if</span> type(l)!=list:
+        print(<span class="hljs-string">&apos;Error: the result is not a list&apos;</span>)
+    <span class="hljs-keyword">else</span>:
+        print(<span class="hljs-string">&apos;[&apos;</span>, end=<span class="hljs-string">&apos;&apos;</span>)
+        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(y_f)<span class="hljs-number">-1</span>):
+            print(<span class="hljs-string">&quot;%.4f, &quot;</span>%y_f[i][<span class="hljs-number">1</span>], end=<span class="hljs-string">&apos;&apos;</span>)
+        print(<span class="hljs-string">&quot;%.4f]&quot;</span>%y_f[len(y_f)<span class="hljs-number">-1</span>][<span class="hljs-number">1</span>])
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SIR</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, beta, gamma, y0)</span>:</span>
+        self.beta = beta; self.gamma = gamma; self.y0 = y0  <span class="hljs-comment"># &#x53C2;&#x6570;&#x5C5E;&#x6027;</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(self, y)</span>:</span>  <span class="hljs-comment"># y&#x4E3A;&#x5F53;&#x524D;&#x72B6;&#x6001;&#xFF0C;&#x5217;&#x8868;[S,I,R]</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        diff = np.zeros(<span class="hljs-number">3</span>)
+        s,i,r = y
+        diff[<span class="hljs-number">0</span>] = - self.beta * s * i
+        diff[<span class="hljs-number">1</span>] = self.beta * s * i - self.gamma * i
+        diff[<span class="hljs-number">2</span>] = self.gamma * i
+        <span class="hljs-keyword">return</span> diff
+
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">solve</span><span class="hljs-params">(self, x)</span>:</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        y = [y0] * len(t);
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(t)<span class="hljs-number">-1</span>):
+            h = t[k+<span class="hljs-number">1</span>]-t[k]
+            yp = y[k] + h * self.f(y[k])
+            y[k+<span class="hljs-number">1</span>] = y[k] + h * self.f(yp)
+        <span class="hljs-keyword">return</span> y 
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+
+N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09; </span>
+y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38;, &#x5373;[S0, I0, R0]</span>
+beta = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;&#x5012;&#x6570;</span>
+simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+<span class="hljs-keyword">for</span> T <span class="hljs-keyword">in</span> [<span class="hljs-number">5</span>, <span class="hljs-number">10</span>, <span class="hljs-number">20</span>]:
+    t   = range(<span class="hljs-number">0</span>, T, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;T&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+    y_f = simulation.solve(t)
+    myprint_list(y_f)
+</code></pre>
+<hr>
+<h3 id="&#x7B2C;3&#x5173;&#xFF1A;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;sir&#x6A21;&#x578B;-&#x6539;&#x8FDB;&#x6B27;&#x62C9;&#x6CD5;&#x68AF;&#x5F62;&#x6CD5;&#x6C42;&#x89E3;">&#x7B2C;3&#x5173;&#xFF1A;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;SIR&#x6A21;&#x578B;-&#x6539;&#x8FDB;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;)&#x6C42;&#x89E3;</h3>
+<h4 id="&#x4EFB;&#x52A1;&#x63CF;&#x8FF0;">&#x4EFB;&#x52A1;&#x63CF;&#x8FF0; </h4>
+<p>&#x65B0;&#x578B;&#x51A0;&#x72B6;&#x75C5;&#x6BD2;&#x611F;&#x67D3;&#x7684;&#x80BA;&#x708E;&#x75AB;&#x60C5;&#x5F15;&#x53D1;&#x5168;&#x7403;&#x5E7F;&#x6CDB;&#x5173;&#x6CE8;&#x3002;2020&#x5E74;3&#x6708;11&#x65E5;&#xFF0C;&#x4E16;&#x754C;&#x536B;&#x751F;&#x7EC4;&#x7EC7;&#x603B;&#x5E72;&#x4E8B;&#x8C2D;&#x5FB7;&#x585E;&#x5BA3;&#x5E03;&#xFF0C;&#x6839;&#x636E;&#x8BC4;&#x4F30;&#xFF0C;&#x4E16;&#x536B;&#x7EC4;&#x7EC7;&#x8BA4;&#x4E3A;&#x5F53;&#x524D;&#x65B0;&#x51A0;&#x80BA;&#x708E;&#x75AB;&#x60C5;&#x53EF;&#x88AB;&#x79F0;&#x4E3A;&#x5168;&#x7403;&#x5927;&#x6D41;&#x884C;&#xFF08;pandemic&#xFF09;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5229;&#x7528;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#xFF0C;&#x5BF9;&#x75BE;&#x75C5;&#x7684;&#x53D1;&#x5C55;&#x8FDB;&#x884C;&#x7B80;&#x5355;&#x9884;&#x6D4B;&#xFF0C;&#x8FD9;&#x5BF9;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5206;&#x6790;&#x5177;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x53C2;&#x8003;&#x4EF7;&#x503C;&#x3002;</p>
+<p>&#x672C;&#x5173;&#x7684;&#x76EE;&#x6807;&#x5C31;&#x662F;&#x8BA9;&#x5B66;&#x4E60;&#x8005;&#x5229;&#x7528; Python &#x7F16;&#x7A0B;&#x5B9E;&#x73B0;&#x7ECF;&#x5178;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x2014;&#x2014;SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x5BF9;&#x75AB;&#x60C5;&#x8D8B;&#x52BF;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3002;&#x672C;&#x5173;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x91C7;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5BF9;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8FDB;&#x884C;&#x6A21;&#x62DF;&#x3002;</p>
+<h4 id="&#x76F8;&#x5173;&#x77E5;&#x8BC6;">&#x76F8;&#x5173;&#x77E5;&#x8BC6; </h4>
+<h5 id="sir&#x6A21;&#x578B;">SIR&#x6A21;&#x578B; </h5>
+<blockquote>
+<p>SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x4F20;&#x64AD;&#x6A21;&#x578B;&#xFF0C;&#x662F;&#x75BE;&#x75C5;&#x53CA;&#x4FE1;&#x606F;&#x4F20;&#x64AD;&#x8FC7;&#x7A0B;&#x7684;&#x62BD;&#x8C61;&#x63CF;&#x8FF0;&#x3002;&#x662F;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x4E2D;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x6A21;&#x578B;&#x3002;&#x6B64;&#x6A21;&#x578B;&#x80FD;&#x591F;&#x8F83;&#x4E3A;&#x7C97;&#x7565;&#x5730;&#x5C55;&#x793A;&#x51FA;&#x4E00;&#x79CD;&#x4F20;&#x67D3;&#x75C5;&#x4ECE;&#x53D1;&#x75C5;&#x5230;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5176;&#x6838;&#x5FC3;&#x5728;&#x4E8E;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x3002;</p>
+</blockquote>
+<ul>
+<li>S &#x7C7B;&#xFF1A;&#x6613;&#x611F;&#x8005;&#xFF08;Susceptible&#xFF09;</li>
+<li>I &#x7C7B;&#xFF1A;&#x611F;&#x67D3;&#x8005;&#xFF08;Infective&#xFF09;</li>
+<li>R &#x7C7B;&#xFF1A;&#x79FB;&#x51FA;&#x8005;&#xFF08;Removal&#xFF09;</li>
+</ul>
+<p><img src="pic/SIRmodel.png" alt=""></p>
+<p>&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7EC4;&#x8868;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>$$
+\left{<br>     \begin{array}{lr}<br>     S&apos; = -\beta SI &amp;  \<br>     I&apos; = \beta SI-\gamma I &amp; \<br>     R&apos; = \gamma I &amp;<br>     \end{array}<br>\right.  </p>
+<p>$$</p>
+<p>&#x5176;&#x4E2D;S&#x2032;,I&#x2032;,R&#x2032;&#x5206;&#x522B;&#x8868;&#x793A;S,I,R&#x5173;&#x4E8E;&#x65F6;&#x95F4;t&#x7684;&#x5BFC;&#x6570;&#xFF0C;&#x4E0B;&#x9762;&#x5C06;&#x5176;&#x7EC4;&#x5408;&#x4E3A;&#x5411;&#x91CF;&#x5F62;&#x5F0F;&#x5E76;&#x7528;&#x51FD;&#x6570;f&#x8868;&#x793A;&#xFF0C;&#x5F97;:$$(S&apos;,I&apos;,R&apos;)=f(S,I,R)=(&#x2212;\beta SI,\beta SI&#x2212;\gamma I,\gamma I)$$ &#x5176;&#x4E2D;:&#x3B2;&#x4E3A;&#x611F;&#x67D3;&#x7CFB;&#x6570;&#xFF0C;&#x4EE3;&#x8868;&#x6613;&#x611F;&#x4EBA;&#x7FA4;&#x4E0E;&#x4F20;&#x67D3;&#x6E90;&#x63A5;&#x89E6;&#x88AB;&#x611F;&#x67D3;&#x7684;&#x6982;&#x7387;&#xFF0C;&#x5373;&#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;&#xFF1B;&#x3B3;&#x4E3A;&#x9694;&#x79BB;(&#x6062;&#x590D;)&#x7CFB;&#x6570;&#xFF0C;&#x4E00;&#x822C;&#x5BF9;&#x5176;&#x5012;&#x6570;1/&#x3B3;&#x66F4;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x4EE3;&#x8868;&#x4E86;&#x5E73;&#x5747;&#x611F;&#x67D3;&#x65F6;&#x95F4;&#xFF1B;S,I&#x5B9A;&#x4E49;&#x89C1;&#x4E0A;&#xFF0C;S(0)&#x4E3A;&#x521D;&#x59CB;&#x6613;&#x611F;&#x4EBA;&#x6570;&#xFF0C;I(0)&#x4E3A;&#x521D;&#x59CB;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x3002;</p>
+<h5 id="&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09;">&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09; </h5>
+<p>&#x6839;&#x636E;&#x6B27;&#x62C9;&#x6CD5;&#x548C;&#x68AF;&#x5F62;&#x516C;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x516C;&#x5F0F;&#xFF0C;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x5F62;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="pic/improvedEuler.png" alt=""></p>
+<p>&#x4EE3;&#x7801;&#x793A;&#x4F8B;&#x5982;&#x4E0B;:</p>
+<pre><code class="lang-py">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trapezoidalEuler</span><span class="hljs-params">(f, x, y0)</span>:</span>
+        y = [y0] * len(x)
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(x)<span class="hljs-number">-1</span>):
+            h = x[k+<span class="hljs-number">1</span>]-x[k]
+            y_p = y[k] + h * f(x[k], y[k])
+            y_c = y[k] + h * f(x[k+<span class="hljs-number">1</span>], y_p)
+            y[k+<span class="hljs-number">1</span>] = <span class="hljs-number">1</span>/<span class="hljs-number">2</span> * (y_p + y_c)
+        <span class="hljs-keyword">return</span> y  <span class="hljs-comment"># y = [y0, y1, ..., yn]</span>
+</code></pre>
+<h4 id="&#x7F16;&#x7A0B;&#x8981;&#x6C42;">&#x7F16;&#x7A0B;&#x8981;&#x6C42; </h4>
+<p>&#x5229;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5B9E;&#x73B0;SIR&#x7C7B;&#xFF0C;&#x5176;&#x5C5E;&#x6027;</p>
+<ul>
+<li><code>beta</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B2;</li>
+<li><code>gamma</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B3;</li>
+<li><code>y0</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;(S, I, R)&#x4EBA;&#x6570;</li>
+</ul>
+<p>&#x5E76;&#x7F16;&#x5199;&#x65B9;&#x6CD5;</p>
+<ul>
+<li><p><code>f(self,y)</code>: &#x5B9E;&#x73B0;SIR&#x6A21;&#x578B;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;y&#x662F;&#x5F53;&#x524D;&#x72B6;&#x6001;[S, I, R]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x9700;&#x8FD4;&#x56DE;[S&apos;,I&apos;,R&apos;]</p>
+</li>
+<li><p><code>solve(self,x)</code>: &#x5B9E;&#x73B0;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;x&#x662F;&#x5217;&#x8868;[0, .., t-1]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;t&#x5929;&#x5185;&#x6BCF;&#x5929;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x7684;&#x5217;&#x8868; (&#x5217;&#x8868;&#x5927;&#x5C0F;&#x4E3A;&#x5929;&#x6570;t)&#x3002;&#xFF08;&#x6CE8;&#x610F;&#xFF1A;&#x672C;&#x573A;&#x666F;&#x4E2D;&#x5E94;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x65F6;&#xFF0C;<code>f(x[k],y[k])</code>&#x548C;<code>f(x[k+1],y_p)</code>&#x4E2D;<code>x[k],x[k+1]</code>&#x5BF9;f&#x51FD;&#x6570;&#x7684;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x5F71;&#x54CD;&#xFF09;</p>
+</li>
+</ul>
+<h4 id="&#x4EFB;&#x52A1;&#x63D0;&#x793A;">&#x4EFB;&#x52A1;&#x63D0;&#x793A; </h4>
+<p><strong>&#x6D4B;&#x8BD5;&#x8F93;&#x5165;</strong>&#xFF1A;</p>
+<pre><code>    N     = 1e8             # &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;  
+    gamma = 1/25            # &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;   
+    y0    = [N-1, 1, 0]     # &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]  
+    t =   range(0, 5, 1) # &#x6A21;&#x62DF;5&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;  
+    beta = 1.0/N            # &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;
+    simulation = SIR(beta=beta, gamma=gamma, y0=y0)   
+    y = simulation.solve(t)
+</code></pre><p><strong>&#x9884;&#x671F;&#x8F93;&#x51FA;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">2.4208</span>, <span class="hljs-number">5.8603</span>, <span class="hljs-number">14.1865</span>, <span class="hljs-number">34.3428</span>]
+</code></pre>
+<hr>
+<p>&#x5F00;&#x59CB;&#x4F60;&#x7684;&#x4EFB;&#x52A1;&#x5427;&#xFF0C;&#x795D;&#x4F60;&#x6210;&#x529F;&#xFF01;</p>
+<p>framework.py</p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myprint_list</span><span class="hljs-params">(l)</span>:</span>
+    <span class="hljs-keyword">if</span> type(l)!=list:
+        print(<span class="hljs-string">&apos;Error: the result is not a list&apos;</span>)
+    <span class="hljs-keyword">else</span>:
+        print(<span class="hljs-string">&apos;[&apos;</span>, end=<span class="hljs-string">&apos;&apos;</span>)
+        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(y_f)<span class="hljs-number">-1</span>):
+            print(<span class="hljs-string">&quot;%.4f, &quot;</span>%y_f[i][<span class="hljs-number">1</span>], end=<span class="hljs-string">&apos;&apos;</span>)
+        print(<span class="hljs-string">&quot;%.4f]&quot;</span>%y_f[len(y_f)<span class="hljs-number">-1</span>][<span class="hljs-number">1</span>])
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SIR</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, beta, gamma, y0)</span>:</span>
+        self.beta = beta; self.gamma = gamma; self.y0 = y0  <span class="hljs-comment"># &#x53C2;&#x6570;&#x5C5E;&#x6027;</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(self, y)</span>:</span> <span class="hljs-comment">#  y&#x4E3A;&#x5F53;&#x524D;&#x72B6;&#x6001;&#xFF0C;&#x5217;&#x8868;[S,I,R]</span>
+        <span class="hljs-comment"># S = y[0]</span>
+        <span class="hljs-comment"># I = y[1]</span>
+        <span class="hljs-comment"># R = y[2]</span>
+        <span class="hljs-comment"># return [-self.beta * S * I, self.beta * S * I - self.gamma * I, self.gamma * I]</span>
+        diff = np.zeros(<span class="hljs-number">3</span>, dtype=np.float64)
+        s,i,r = y
+        diff[<span class="hljs-number">0</span>] = - self.beta * s * i
+        diff[<span class="hljs-number">1</span>] = self.beta * s * i - self.gamma * i
+        diff[<span class="hljs-number">2</span>] = self.gamma * i
+        <span class="hljs-keyword">return</span> diff
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">solve</span><span class="hljs-params">(self, x)</span>:</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        y = [y0] * len(t);
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(t)<span class="hljs-number">-1</span>):
+            h = t[k+<span class="hljs-number">1</span>]-t[k]
+            y_p = np.array(y[k] + h * np.array(self.f(y[k])))
+            y_c = np.array(y[k] + h * np.array(self.f(y_p)))
+            y[k+<span class="hljs-number">1</span>] = (y_p + y_c)/<span class="hljs-number">2</span>
+        <span class="hljs-keyword">return</span> y
+
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+
+N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09; </span>
+y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]</span>
+t     = range(<span class="hljs-number">0</span>, <span class="hljs-number">11</span>, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;10&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+beta = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+
+simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+<span class="hljs-keyword">for</span> T <span class="hljs-keyword">in</span> [<span class="hljs-number">5</span>, <span class="hljs-number">10</span>, <span class="hljs-number">20</span>]:
+    t   = range(<span class="hljs-number">0</span>, T, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;T&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+    y_f = simulation.solve(t)
+    myprint_list(y_f)
+</code></pre>
+<hr>
+<h3 id="&#x7B2C;4&#x5173;&#xFF1A;&#x5F15;&#x5165;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x63AA;&#x65BD;-&#x9694;&#x79BB;&#x673A;&#x5236;">&#x7B2C;4&#x5173;&#xFF1A;&#x5F15;&#x5165;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x63AA;&#x65BD;-&#x9694;&#x79BB;&#x673A;&#x5236;</h3>
+<h4 id="&#x4EFB;&#x52A1;&#x63CF;&#x8FF0;">&#x4EFB;&#x52A1;&#x63CF;&#x8FF0; </h4>
+<p>&#x4E3A;&#x6709;&#x6548;&#x9632;&#x6B62;&#x75AB;&#x60C5;&#x8FDB;&#x4E00;&#x6B65;&#x6269;&#x6563;&#x548C;&#x8513;&#x5EF6;&#xFF0C;&#x5404;&#x5730;&#x7EB7;&#x7EB7;&#x51FA;&#x53F0;&#x5404;&#x79CD;&#x4E3E;&#x63AA;&#x52A0;&#x5F3A;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x5DE5;&#x4F5C;&#x3002;&#x4E3A;&#x4E86;&#x66F4;&#x51C6;&#x786E;&#x7684;&#x5206;&#x6790;&#x6570;&#x636E;&#xFF0C;&#x9884;&#x6D4B;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#xFF0C;&#x672C;&#x5173;&#x5C06;&#x5728;&#x7B2C;3&#x5173;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x5F15;&#x5165;&#x9694;&#x79BB;&#x673A;&#x5236;&#xFF0C;&#x6A21;&#x62DF;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x3002;</p>
+<h4 id="&#x76F8;&#x5173;&#x77E5;&#x8BC6;">&#x76F8;&#x5173;&#x77E5;&#x8BC6; </h4>
+<h5 id="sir&#x6A21;&#x578B;">SIR&#x6A21;&#x578B; </h5>
+<blockquote>
+<p>SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x4F20;&#x64AD;&#x6A21;&#x578B;&#xFF0C;&#x662F;&#x75BE;&#x75C5;&#x53CA;&#x4FE1;&#x606F;&#x4F20;&#x64AD;&#x8FC7;&#x7A0B;&#x7684;&#x62BD;&#x8C61;&#x63CF;&#x8FF0;&#x3002;&#x662F;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x4E2D;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x6A21;&#x578B;&#x3002;&#x6B64;&#x6A21;&#x578B;&#x80FD;&#x591F;&#x8F83;&#x4E3A;&#x7C97;&#x7565;&#x5730;&#x5C55;&#x793A;&#x51FA;&#x4E00;&#x79CD;&#x4F20;&#x67D3;&#x75C5;&#x4ECE;&#x53D1;&#x75C5;&#x5230;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5176;&#x6838;&#x5FC3;&#x5728;&#x4E8E;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x3002;</p>
+</blockquote>
+<ul>
+<li>S &#x7C7B;&#xFF1A;&#x6613;&#x611F;&#x8005;&#xFF08;Susceptible&#xFF09;</li>
+<li>I &#x7C7B;&#xFF1A;&#x611F;&#x67D3;&#x8005;&#xFF08;Infective&#xFF09;</li>
+<li>R &#x7C7B;&#xFF1A;&#x79FB;&#x51FA;&#x8005;&#xFF08;Removal&#xFF09; 
+<img src="pic/SIRmodel.png" alt=""></li>
+</ul>
+<p>&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7EC4;&#x8868;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>$$
+\left{<br>     \begin{array}{lr}<br>     S&apos; = -\beta SI &amp;  \<br>     I&apos; = \beta SI-\gamma I &amp; \<br>     R&apos; = \gamma I &amp;<br>     \end{array}<br>\right.  </p>
+<p>$$</p>
+<p>&#x5176;&#x4E2D;S&#x2032;,I&#x2032;,R&#x2032;&#x5206;&#x522B;&#x8868;&#x793A;S,I,R&#x5173;&#x4E8E;&#x65F6;&#x95F4;t&#x7684;&#x5BFC;&#x6570;&#xFF0C;&#x4E0B;&#x9762;&#x5C06;&#x5176;&#x7EC4;&#x5408;&#x4E3A;&#x5411;&#x91CF;&#x5F62;&#x5F0F;&#x5E76;&#x7528;&#x51FD;&#x6570;f&#x8868;&#x793A;&#xFF0C;&#x5F97;:$$(S&apos;,I&apos;,R&apos;)=f(S,I,R)=(&#x2212;\beta SI,\beta SI&#x2212;\gamma I,\gamma I)$$ &#x5176;&#x4E2D;:&#x3B2;&#x4E3A;&#x611F;&#x67D3;&#x7CFB;&#x6570;&#xFF0C;&#x4EE3;&#x8868;&#x6613;&#x611F;&#x4EBA;&#x7FA4;&#x4E0E;&#x4F20;&#x67D3;&#x6E90;&#x63A5;&#x89E6;&#x88AB;&#x611F;&#x67D3;&#x7684;&#x6982;&#x7387;&#xFF0C;&#x5373;&#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;&#xFF1B;&#x3B3;&#x4E3A;&#x9694;&#x79BB;(&#x6062;&#x590D;)&#x7CFB;&#x6570;&#xFF0C;&#x4E00;&#x822C;&#x5BF9;&#x5176;&#x5012;&#x6570;1/&#x3B3;&#x66F4;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x4EE3;&#x8868;&#x4E86;&#x5E73;&#x5747;&#x611F;&#x67D3;&#x65F6;&#x95F4;&#xFF1B;S,I&#x5B9A;&#x4E49;&#x89C1;&#x4E0A;&#xFF0C;S(0)&#x4E3A;&#x521D;&#x59CB;&#x6613;&#x611F;&#x4EBA;&#x6570;&#xFF0C;I(0)&#x4E3A;&#x521D;&#x59CB;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x3002;</p>
+<h5 id="&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09;">&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09; </h5>
+<p>&#x6839;&#x636E;&#x6B27;&#x62C9;&#x6CD5;&#x548C;&#x68AF;&#x5F62;&#x516C;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x516C;&#x5F0F;&#xFF0C;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x5F62;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="pic/improvedEuler.png" alt=""></p>
+<p>&#x4EE3;&#x7801;&#x793A;&#x4F8B;&#x5982;&#x4E0B;:</p>
+<pre><code class="lang-py">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trapezoidalEuler</span><span class="hljs-params">(f, x, y0)</span>:</span>
+        y = [y0] * len(x)
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(x)<span class="hljs-number">-1</span>):
+            h = x[k+<span class="hljs-number">1</span>]-x[k]
+            y_p = y[k] + h * f(x[k], y[k])
+            y_c = y[k] + h * f(x[k+<span class="hljs-number">1</span>], y_p)
+            y[k+<span class="hljs-number">1</span>] = <span class="hljs-number">1</span>/<span class="hljs-number">2</span> * (y_p + y_c)
+        <span class="hljs-keyword">return</span> y  <span class="hljs-comment"># y = [y0, y1, ..., yn]</span>
+</code></pre>
+<h4 id="&#x7F16;&#x7A0B;&#x8981;&#x6C42;">&#x7F16;&#x7A0B;&#x8981;&#x6C42; </h4>
+<p>&#x5229;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5E76;&#x5F15;&#x5165;&#x9694;&#x79BB;&#x673A;&#x5236;&#xFF0C;&#x5B9E;&#x73B0;SIR&#x7C7B;&#xFF0C;&#x5176;&#x5C5E;&#x6027;</p>
+<ul>
+<li><code>beta</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B2;</li>
+<li><code>gamma</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B3;</li>
+<li><code>y0</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;(S, I, R)&#x4EBA;&#x6570;</li>
+</ul>
+<p>&#x5E76;&#x7F16;&#x5199;&#x65B9;&#x6CD5;</p>
+<ul>
+<li><code>solve_with_quarantine(self,x)</code>: &#x5B9E;&#x73B0;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#xFF0C;&#x5E76;&#x5F15;&#x5165;&#x4E0D;&#x540C;&#x7684;&#x9694;&#x79BB;&#x673A;&#x5236;&#xFF08;&#x89C1;&#x4E0B;&#xFF09;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;x&#x662F;&#x5217;&#x8868;[0, .., t-1]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;t&#x5929;&#x5185;&#x6BCF;&#x5929;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x7684;&#x5217;&#x8868; (&#x5217;&#x8868;&#x5927;&#x5C0F;&#x4E3A;&#x5929;&#x6570;t)&#x3002;&#xFF08;&#x6CE8;&#x610F;&#xFF1A;&#x672C;&#x573A;&#x666F;&#x4E2D;&#x5E94;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x65F6;&#xFF0C;<code>f(x[k],y[k])</code>&#x548C;<code>f(x[k+1],y_p)</code>&#x4E2D;<code>x[k],x[k+1]</code>&#x5BF9;f&#x51FD;&#x6570;&#x7684;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x5F71;&#x54CD;&#xFF09;</li>
+</ul>
+<p><strong>&#x4E0D;&#x540C;&#x7684;&#x9694;&#x79BB;&#x673A;&#x5236;</strong></p>
+<p>&#x2460;&#x672A;&#x5B9E;&#x65BD;&#x9694;&#x79BB;&#xFF1A; gamma = 1/25&#xFF0C;&#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;<br>&#x2461;&#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;gamma = 1/15&#xFF0C;&#x6309;&#x6700;&#x957F;15&#x5929;&#x53D1;&#x75C5;&#x786E;&#x8BCA;&#x540E;&#x88AB;&#x9694;&#x79BB;</p>
+<p>&#x2462;&#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;gamma = 1/3&#xFF0C;&#x5E73;&#x5747;3&#x5929;&#x88AB;&#x9694;&#x79BB;</p>
+<h4 id="&#x4EFB;&#x52A1;&#x63D0;&#x793A;">&#x4EFB;&#x52A1;&#x63D0;&#x793A; </h4>
+<p><strong>&#x6D4B;&#x8BD5;&#x8F93;&#x5165;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+    gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;</span>
+    y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]</span>
+    beta = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+    t   = range(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;5&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x65E0;&#x9694;&#x79BB;&#x4E0B;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+    y_f = simulation.solve_with_quarantine(t)
+    myprint_list(y_f)
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    gamma1 = <span class="hljs-number">1</span>/<span class="hljs-number">15</span>            <span class="hljs-comment"># &#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;&#x6309;&#x6700;&#x957F;15&#x5929;&#x53D1;&#x75C5;&#x786E;&#x8BCA;&#x540E;&#x88AB;&#x9694;&#x79BB;</span>
+    y_f = simulation.solve_with_quarantine(t, gamma1)
+    myprint_list(y_f)
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    gamma1 = <span class="hljs-number">1</span>/<span class="hljs-number">3</span>            <span class="hljs-comment"># &#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;&#x6309;&#x5E73;&#x5747;3&#x5929;&#x88AB;&#x9694;&#x79BB;</span>
+    y_f = simulation.solve_with_quarantine(t, gamma1)
+    myprint_list(y_f)
+</code></pre>
+<p><strong>&#x9884;&#x671F;&#x8F93;&#x51FA;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x65E0;&#x9694;&#x79BB;&#x4E0B;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;
+    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">2.4208</span>, <span class="hljs-number">5.8603</span>, <span class="hljs-number">14.1865</span>, <span class="hljs-number">34.3428</span>]
+    &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;
+    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">2.3689</span>, <span class="hljs-number">5.6116</span>, <span class="hljs-number">13.2933</span>, <span class="hljs-number">31.4904</span>]
+    &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;
+    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">1.8889</span>, <span class="hljs-number">3.5679</span>, <span class="hljs-number">6.7394</span>, <span class="hljs-number">12.7299</span>]
+</code></pre>
+<hr>
+<p>&#x5F00;&#x59CB;&#x4F60;&#x7684;&#x4EFB;&#x52A1;&#x5427;&#xFF0C;&#x795D;&#x4F60;&#x6210;&#x529F;&#xFF01;</p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myprint_list</span><span class="hljs-params">(l)</span>:</span>
+    <span class="hljs-keyword">if</span> type(l)!=list:
+        print(<span class="hljs-string">&apos;Error: the result is not a list&apos;</span>)
+    <span class="hljs-keyword">else</span>:
+        print(<span class="hljs-string">&apos;[&apos;</span>, end=<span class="hljs-string">&apos;&apos;</span>)
+        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(y_f)<span class="hljs-number">-1</span>):
+            print(<span class="hljs-string">&quot;%.4f, &quot;</span>%y_f[i][<span class="hljs-number">1</span>], end=<span class="hljs-string">&apos;&apos;</span>)
+        print(<span class="hljs-string">&quot;%.4f]&quot;</span>%y_f[len(y_f)<span class="hljs-number">-1</span>][<span class="hljs-number">1</span>])
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SIR</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, beta, gamma, y0)</span>:</span>
+        self.beta = beta; self.gamma = gamma; self.y0 = y0  <span class="hljs-comment"># &#x53C2;&#x6570;&#x5C5E;&#x6027;</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(self, y, gamma)</span>:</span> <span class="hljs-comment">#  y&#x4E3A;&#x5F53;&#x524D;&#x72B6;&#x6001;&#xFF0C;&#x5217;&#x8868;[S,I,R]</span>
+        S = y[<span class="hljs-number">0</span>]
+        I = y[<span class="hljs-number">1</span>]
+        R = y[<span class="hljs-number">2</span>]
+        <span class="hljs-keyword">return</span> [-self.beta * S * I, self.beta * S * I - gamma * I, gamma * I]
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">solve_with_quarantine</span><span class="hljs-params">(self, x, gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>)</span>:</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        y = [y0] * len(t);
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(t)<span class="hljs-number">-1</span>):
+            h = t[k+<span class="hljs-number">1</span>]-t[k]
+            y_p = np.array(y[k] + h * np.array(self.f(y[k], gamma)))
+            y_c = np.array(y[k] + h * np.array(self.f(y_p, gamma)))
+            y[k+<span class="hljs-number">1</span>] = (y_p + y_c)/<span class="hljs-number">2</span>
+        <span class="hljs-keyword">return</span> y
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;</span>
+y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]</span>
+beta = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+
+<span class="hljs-keyword">for</span> T <span class="hljs-keyword">in</span> [<span class="hljs-number">5</span>, <span class="hljs-number">10</span>, <span class="hljs-number">20</span>]:
+    t   = range(<span class="hljs-number">0</span>, T, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;T&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x65E0;&#x9694;&#x79BB;&#x4E0B;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+    y_f = simulation.solve_with_quarantine(t)
+    myprint_list(y_f)
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    gamma1 = <span class="hljs-number">1</span>/<span class="hljs-number">15</span>            <span class="hljs-comment"># &#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;&#x6309;&#x6700;&#x957F;15&#x5929;&#x53D1;&#x75C5;&#x786E;&#x8BCA;&#x540E;&#x88AB;&#x9694;&#x79BB;</span>
+    y_f = simulation.solve_with_quarantine(t, gamma1)
+    myprint_list(y_f)
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    gamma1 = <span class="hljs-number">1</span>/<span class="hljs-number">3</span>            <span class="hljs-comment"># &#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;&#x6309;&#x5E73;&#x5747;3&#x5929;&#x88AB;&#x9694;&#x79BB;</span>
+    y_f = simulation.solve_with_quarantine(t, gamma1)
+    myprint_list(y_f)
+</code></pre>
+<hr>
+<h3 id="&#x7B2C;5&#x5173;&#xFF1A;&#x5F15;&#x5165;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x63AA;&#x65BD;-&#x51FA;&#x884C;&#x63A7;&#x5236;&#x673A;&#x5236;">&#x7B2C;5&#x5173;&#xFF1A;&#x5F15;&#x5165;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x63AA;&#x65BD;-&#x51FA;&#x884C;&#x63A7;&#x5236;&#x673A;&#x5236;</h3>
+<h4 id="&#x4EFB;&#x52A1;&#x63CF;&#x8FF0;">&#x4EFB;&#x52A1;&#x63CF;&#x8FF0; </h4>
+<p>&#x4E3A;&#x6709;&#x6548;&#x9632;&#x6B62;&#x75AB;&#x60C5;&#x8FDB;&#x4E00;&#x6B65;&#x6269;&#x6563;&#x548C;&#x8513;&#x5EF6;&#xFF0C;&#x5404;&#x5730;&#x7EB7;&#x7EB7;&#x51FA;&#x53F0;&#x5404;&#x79CD;&#x4E3E;&#x63AA;&#x52A0;&#x5F3A;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x5DE5;&#x4F5C;&#x3002;&#x4E3A;&#x4E86;&#x66F4;&#x51C6;&#x786E;&#x7684;&#x5206;&#x6790;&#x6570;&#x636E;&#xFF0C;&#x9884;&#x6D4B;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#xFF0C;&#x672C;&#x5173;&#x5C06;&#x5728;&#x7B2C;&#x4E09;&#x5173;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x5F15;&#x5165;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x673A;&#x5236;&#xFF0C;&#x6A21;&#x62DF;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x3002;</p>
+<h4 id="&#x76F8;&#x5173;&#x77E5;&#x8BC6;">&#x76F8;&#x5173;&#x77E5;&#x8BC6; </h4>
+<h5 id="sir&#x6A21;&#x578B;">SIR&#x6A21;&#x578B; </h5>
+<blockquote>
+<p>SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x4F20;&#x64AD;&#x6A21;&#x578B;&#xFF0C;&#x662F;&#x75BE;&#x75C5;&#x53CA;&#x4FE1;&#x606F;&#x4F20;&#x64AD;&#x8FC7;&#x7A0B;&#x7684;&#x62BD;&#x8C61;&#x63CF;&#x8FF0;&#x3002;&#x662F;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x4E2D;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x6A21;&#x578B;&#x3002;&#x6B64;&#x6A21;&#x578B;&#x80FD;&#x591F;&#x8F83;&#x4E3A;&#x7C97;&#x7565;&#x5730;&#x5C55;&#x793A;&#x51FA;&#x4E00;&#x79CD;&#x4F20;&#x67D3;&#x75C5;&#x4ECE;&#x53D1;&#x75C5;&#x5230;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5176;&#x6838;&#x5FC3;&#x5728;&#x4E8E;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x3002;</p>
+</blockquote>
+<ul>
+<li>S &#x7C7B;&#xFF1A;&#x6613;&#x611F;&#x8005;&#xFF08;Susceptible&#xFF09;</li>
+<li>I &#x7C7B;&#xFF1A;&#x611F;&#x67D3;&#x8005;&#xFF08;Infective&#xFF09;</li>
+<li>R &#x7C7B;&#xFF1A;&#x79FB;&#x51FA;&#x8005;&#xFF08;Removal&#xFF09; 
+<img src="pic/SIRmodel.png" alt=""></li>
+</ul>
+<p>&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7EC4;&#x8868;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>$$
+\left{<br>     \begin{array}{lr}<br>     S&apos; = -\beta SI &amp;  \<br>     I&apos; = \beta SI-\gamma I &amp; \<br>     R&apos; = \gamma I &amp;<br>     \end{array}<br>\right.  </p>
+<p>$$</p>
+<p>&#x5176;&#x4E2D;S&#x2032;,I&#x2032;,R&#x2032;&#x5206;&#x522B;&#x8868;&#x793A;S,I,R&#x5173;&#x4E8E;&#x65F6;&#x95F4;t&#x7684;&#x5BFC;&#x6570;&#xFF0C;&#x4E0B;&#x9762;&#x5C06;&#x5176;&#x7EC4;&#x5408;&#x4E3A;&#x5411;&#x91CF;&#x5F62;&#x5F0F;&#x5E76;&#x7528;&#x51FD;&#x6570;f&#x8868;&#x793A;&#xFF0C;&#x5F97;:$$(S&apos;,I&apos;,R&apos;)=f(S,I,R)=(&#x2212;\beta SI,\beta SI&#x2212;\gamma I,\gamma I)$$ &#x5176;&#x4E2D;:&#x3B2;&#x4E3A;&#x611F;&#x67D3;&#x7CFB;&#x6570;&#xFF0C;&#x4EE3;&#x8868;&#x6613;&#x611F;&#x4EBA;&#x7FA4;&#x4E0E;&#x4F20;&#x67D3;&#x6E90;&#x63A5;&#x89E6;&#x88AB;&#x611F;&#x67D3;&#x7684;&#x6982;&#x7387;&#xFF0C;&#x5373;&#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;&#xFF1B;&#x3B3;&#x4E3A;&#x9694;&#x79BB;(&#x6062;&#x590D;)&#x7CFB;&#x6570;&#xFF0C;&#x4E00;&#x822C;&#x5BF9;&#x5176;&#x5012;&#x6570;1/&#x3B3;&#x66F4;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x4EE3;&#x8868;&#x4E86;&#x5E73;&#x5747;&#x611F;&#x67D3;&#x65F6;&#x95F4;&#xFF1B;S,I&#x5B9A;&#x4E49;&#x89C1;&#x4E0A;&#xFF0C;S(0)&#x4E3A;&#x521D;&#x59CB;&#x6613;&#x611F;&#x4EBA;&#x6570;&#xFF0C;I(0)&#x4E3A;&#x521D;&#x59CB;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x3002;</p>
+<h5 id="&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09;">&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09; </h5>
+<p>&#x6839;&#x636E;&#x6B27;&#x62C9;&#x6CD5;&#x548C;&#x68AF;&#x5F62;&#x516C;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x516C;&#x5F0F;&#xFF0C;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x5F62;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><img src="pic/improvedEuler.png" alt=""></p>
+<p>&#x4EE3;&#x7801;&#x793A;&#x4F8B;&#x5982;&#x4E0B;:</p>
+<pre><code class="lang-py">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trapezoidalEuler</span><span class="hljs-params">(f, x, y0)</span>:</span>
+        y = [y0] * len(x)
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(x)<span class="hljs-number">-1</span>):
+            h = x[k+<span class="hljs-number">1</span>]-x[k]
+            y_p = y[k] + h * f(x[k], y[k])
+            y_c = y[k] + h * f(x[k+<span class="hljs-number">1</span>], y_p)
+            y[k+<span class="hljs-number">1</span>] = <span class="hljs-number">1</span>/<span class="hljs-number">2</span> * (y_p + y_c)
+        <span class="hljs-keyword">return</span> y  <span class="hljs-comment"># y = [y0, y1, ..., yn]</span>
+</code></pre>
+<h4 id="&#x7F16;&#x7A0B;&#x8981;&#x6C42;">&#x7F16;&#x7A0B;&#x8981;&#x6C42; </h4>
+<p>&#x5229;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5E76;&#x5F15;&#x5165;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x673A;&#x5236;&#xFF0C;&#x5B9E;&#x73B0;SIR&#x7C7B;&#xFF0C;&#x5176;&#x5C5E;&#x6027;</p>
+<ul>
+<li><code>beta</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B2;</li>
+<li><code>gamma</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;&#x3B3;</li>
+<li><code>y0</code>
+&#xFF1A;&#x5BF9;&#x5E94;SIR&#x6A21;&#x578B;&#x4E2D;&#x7684;(S, I, R)&#x4EBA;&#x6570;</li>
+</ul>
+<p>&#x5E76;&#x7F16;&#x5199;&#x65B9;&#x6CD5;</p>
+<ul>
+<li><code>solve_with_control(self,x)</code>: &#x5B9E;&#x73B0;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#xFF0C;&#x5E76;&#x5F15;&#x5165;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x673A;&#x5236;&#xFF08;&#x89C1;&#x4E0B;&#xFF09;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;x&#x662F;&#x5217;&#x8868;[0, .., t-1]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;t&#x5929;&#x5185;&#x6BCF;&#x5929;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x7684;&#x5217;&#x8868; (&#x5217;&#x8868;&#x5927;&#x5C0F;&#x4E3A;&#x5929;&#x6570;t)&#x3002;&#xFF08;&#x6CE8;&#x610F;&#xFF1A;&#x672C;&#x573A;&#x666F;&#x4E2D;&#x5E94;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x65F6;&#xFF0C;<code>f(x[k],y[k])</code>&#x548C;<code>f(x[k+1],y_p)</code>&#x4E2D;<code>x[k],x[k+1]</code>&#x5BF9;f&#x51FD;&#x6570;&#x7684;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x5F71;&#x54CD;&#xFF09;</li>
+</ul>
+<p><strong>&#x51FA;&#x884C;&#x63A7;&#x5236;&#x673A;&#x5236;</strong></p>
+<p>&#x51FA;&#x884C;&#x63A7;&#x5236;&#x7A0B;&#x5EA6;&#x4E3A;state&#x65F6;&#xFF0C;&#x5BF9;&#x5E94;&#x611F;&#x67D3;&#x7CFB;&#x6570;&#x5206;&#x522B;&#x4E0B;&#x964D;&#x4E3A;&#x539F;&#x6765;&#x7684; 1/state</p>
+<h4 id="&#x4EFB;&#x52A1;&#x63D0;&#x793A;">&#x4EFB;&#x52A1;&#x63D0;&#x793A; </h4>
+<p><strong>&#x6D4B;&#x8BD5;&#x8F93;&#x5165;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+    gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09; </span>
+    y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]</span>
+    beta = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+    t   = range(<span class="hljs-number">0</span>, <span class="hljs-number">5</span>, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;5&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x65E0;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x4E0B;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+    y_f = simulation.solve_with_control(t)
+    myprint_list(y_f)
+    <span class="hljs-keyword">for</span> state <span class="hljs-keyword">in</span> [<span class="hljs-number">2</span>,<span class="hljs-number">5</span>,<span class="hljs-number">10</span>]:  <span class="hljs-comment">#&#x51FA;&#x884C;&#x63A7;&#x5236;&#x7684;&#x7A0B;&#x5EA6;,&#x5BF9;&#x5E94;&#x4F20;&#x67D3;&#x7387;&#x5206;&#x522B;&#x4E0B;&#x964D;&#x4E3A;&#x539F;&#x6765;&#x7684;1/state</span>
+            simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+            y_f = simulation.solve_with_control(t,state)
+            print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x540E;&#xFF0C;&#x4F20;&#x67D3;&#x7387;&#x4E3A;&#x539F;&#x6765;&#x7684; 1/{} &#x65F6;,&#x5BF9;&#x5E94;&#x7684;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&quot;</span>.format(state))
+            myprint_list(y_f)
+</code></pre>
+<p><strong>&#x9884;&#x671F;&#x8F93;&#x51FA;</strong>&#xFF1A;</p>
+<pre><code class="lang-py">    &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x65E0;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x4E0B;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;
+    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">2.4208</span>, <span class="hljs-number">5.8603</span>, <span class="hljs-number">14.1865</span>, <span class="hljs-number">34.3428</span>]
+    &#x2014;&#x2014;&#x2014;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x540E;&#xFF0C;&#x4F20;&#x67D3;&#x7387;&#x4E3A;&#x539F;&#x6765;&#x7684; <span class="hljs-number">1</span>/<span class="hljs-number">2</span> &#x65F6;,&#x5BF9;&#x5E94;&#x7684;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;
+    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">1.5658</span>, <span class="hljs-number">2.4517</span>, <span class="hljs-number">3.8389</span>, <span class="hljs-number">6.0110</span>]
+    &#x2014;&#x2014;&#x2014;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x540E;&#xFF0C;&#x4F20;&#x67D3;&#x7387;&#x4E3A;&#x539F;&#x6765;&#x7684; <span class="hljs-number">1</span>/<span class="hljs-number">5</span> &#x65F6;,&#x5BF9;&#x5E94;&#x7684;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;
+    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">1.1728</span>, <span class="hljs-number">1.3755</span>, <span class="hljs-number">1.6131</span>, <span class="hljs-number">1.8919</span>]
+    &#x2014;&#x2014;&#x2014;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x540E;&#xFF0C;&#x4F20;&#x67D3;&#x7387;&#x4E3A;&#x539F;&#x6765;&#x7684; <span class="hljs-number">1</span>/<span class="hljs-number">10</span> &#x65F6;,&#x5BF9;&#x5E94;&#x7684;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;
+    [<span class="hljs-number">1.0000</span>, <span class="hljs-number">1.0618</span>, <span class="hljs-number">1.1274</span>, <span class="hljs-number">1.1971</span>, <span class="hljs-number">1.2711</span>]
+</code></pre>
+<hr>
+<p>&#x5F00;&#x59CB;&#x4F60;&#x7684;&#x4EFB;&#x52A1;&#x5427;&#xFF0C;&#x795D;&#x4F60;&#x6210;&#x529F;&#xFF01;</p>
+<p>framework.py</p>
+<pre><code class="lang-py"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">myprint_list</span><span class="hljs-params">(l)</span>:</span>
+    <span class="hljs-keyword">if</span> type(l)!=list:
+        print(<span class="hljs-string">&apos;Error: the result is not a list&apos;</span>)
+    <span class="hljs-keyword">else</span>:
+        print(<span class="hljs-string">&apos;[&apos;</span>, end=<span class="hljs-string">&apos;&apos;</span>)
+        <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(y_f)<span class="hljs-number">-1</span>):
+            print(<span class="hljs-string">&quot;%.4f, &quot;</span>%y_f[i][<span class="hljs-number">1</span>], end=<span class="hljs-string">&apos;&apos;</span>)
+        print(<span class="hljs-string">&quot;%.4f]&quot;</span>%y_f[len(y_f)<span class="hljs-number">-1</span>][<span class="hljs-number">1</span>])
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SIR</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, beta, gamma, y0)</span>:</span>
+        self.beta = beta; self.gamma = gamma; self.y0 = y0  <span class="hljs-comment"># &#x53C2;&#x6570;&#x5C5E;&#x6027;</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(self, y, state)</span>:</span> <span class="hljs-comment"># y&#x4E3A;&#x5F53;&#x524D;&#x72B6;&#x6001;&#xFF0C;&#x5217;&#x8868;[S,I,R]</span>
+        S = y[<span class="hljs-number">0</span>]
+        I = y[<span class="hljs-number">1</span>]
+        R = y[<span class="hljs-number">2</span>]
+        <span class="hljs-keyword">return</span> [-self.beta/state * S * I, self.beta/state * S * I - self.gamma * I, self.gamma * I]
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">solve_with_control</span><span class="hljs-params">(self, x, state = <span class="hljs-number">1</span>)</span>:</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        y = [y0] * len(t);
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(t)<span class="hljs-number">-1</span>):
+            h = t[k+<span class="hljs-number">1</span>]-t[k]
+            y_p = np.array(y[k] + h * np.array(self.f(y[k], state)))
+            y_c = np.array(y[k] + h * np.array(self.f(y_p, state)))
+            y[k+<span class="hljs-number">1</span>] = (y_p + y_c)/<span class="hljs-number">2</span>
+        <span class="hljs-keyword">return</span> y
+
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09; </span>
+y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]</span>
+beta  = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+
+<span class="hljs-keyword">for</span> T <span class="hljs-keyword">in</span> [<span class="hljs-number">5</span>, <span class="hljs-number">10</span>, <span class="hljs-number">20</span>]:
+    t   = range(<span class="hljs-number">0</span>, T, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x6A21;&#x62DF;T&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+    print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x65E0;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x4E0B;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&quot;</span>)
+    simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+    y_f = simulation.solve_with_control(t)
+    myprint_list(y_f)
+
+    <span class="hljs-keyword">for</span> state <span class="hljs-keyword">in</span> [<span class="hljs-number">2</span> , <span class="hljs-number">5</span> , <span class="hljs-number">10</span>]:   <span class="hljs-comment"># &#x51FA;&#x884C;&#x63A7;&#x5236;&#x7684;&#x7A0B;&#x5EA6;&#xFF0C;&#x5BF9;&#x5E94;&#x611F;&#x67D3;&#x7387;&#x5206;&#x522B;&#x4E0B;&#x964D;&#x4E3A;&#x539F;&#x6765;&#x7684; 1/state</span>
+        simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+        y_f = simulation.solve_with_control(t,state)
+        print(<span class="hljs-string">&quot;&#x2014;&#x2014;&#x2014;&#x51FA;&#x884C;&#x63A7;&#x5236;&#x540E;&#xFF0C;&#x4F20;&#x67D3;&#x7387;&#x4E3A;&#x539F;&#x6765;&#x7684; 1/{} &#x65F6;,&#x5BF9;&#x5E94;&#x7684;&#x611F;&#x67D3;&#x60C5;&#x51B5;&#xFF1A;&#x2014;&#x2014;&#x2014;&quot;</span>.format(state))
+        myprint_list(y_f)
+</code></pre>
+<hr>
+<h3 id="&#x7B2C;6&#x5173;&#xFF1A;&#x7ED8;&#x5236;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5BF9;&#x6BD4;&#x5206;&#x6790;&#x56FE;">&#x7B2C;6&#x5173;&#xFF1A;&#x7ED8;&#x5236;&#x75AB;&#x60C5;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5BF9;&#x6BD4;&#x5206;&#x6790;&#x56FE;</h3>
+<h4 id="&#x4EFB;&#x52A1;&#x63CF;&#x8FF0;">&#x4EFB;&#x52A1;&#x63CF;&#x8FF0; </h4>
+<p>&#x6BCF;&#x5929;&#x7684;&#x75AB;&#x60C5;&#x6570;&#x636E;&#x4EE3;&#x8868;&#x7740;&#x75AB;&#x60C5;&#x7684;&#x6001;&#x52BF;&#x3002;&#x901A;&#x8FC7;&#x5BF9;&#x75AB;&#x60C5;&#x6570;&#x636E;&#x53EF;&#x89C6;&#x5316;&#x53EF;&#x4EE5;&#x76F4;&#x89C2;&#x5730;&#x53CD;&#x6620;&#x75AB;&#x60C5;&#x7684;&#x6001;&#x52BF;&#x3002;&#x4E3A;&#x6709;&#x6548;&#x9632;&#x6B62;&#x75AB;&#x60C5;&#x8FDB;&#x4E00;&#x6B65;&#x6269;&#x6563;&#x548C;&#x8513;&#x5EF6;&#xFF0C;&#x5404;&#x5730;&#x7EB7;&#x7EB7;&#x51FA;&#x53F0;&#x5404;&#x79CD;&#x4E3E;&#x63AA;&#x52A0;&#x5F3A;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#x5DE5;&#x4F5C;&#x3002;&#x672C;&#x5173;&#x5C06;&#x5728;&#x7B2C;4&#x5173;&#xFF08;&#x5F15;&#x5165;&#x9694;&#x79BB;&#x673A;&#x5236;&#xFF09;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x7ED8;&#x5236;&#x672A;&#x9694;&#x79BB;&#x4E0E;&#x9694;&#x79BB;&#x673A;&#x5236;&#x4E0B;&#x65B0;&#x51A0;&#x75C5;&#x6BD2;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5BF9;&#x6BD4;&#x5206;&#x6790;&#x56FE;&#x3002;&#x901A;&#x8FC7;&#x56FE;&#x793A;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x89C2;&#x770B;&#x51FA;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x5F15;&#x5165;&#x9694;&#x79BB;&#x673A;&#x5236;&#x8FDB;&#x884C;&#x75AB;&#x60C5;&#x9632;&#x63A7;&#xFF1F;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x6392;&#x67E5;&#x7591;&#x4F3C;&#xFF1F;</p>
+<h4 id="&#x76F8;&#x5173;&#x77E5;&#x8BC6;">&#x76F8;&#x5173;&#x77E5;&#x8BC6; </h4>
+<p>&#x4E3A;&#x4E86;&#x5B8C;&#x6210;&#x672C;&#x5173;&#x4EFB;&#x52A1;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x638C;&#x63E1;&#xFF1A;1.&#x8BBE;&#x7F6E;&#x56FE;&#x4F8B;&#xFF0C;2.&#x8BBE;&#x7F6E;&#x5750;&#x6807;&#x8F74;&#x53CA;&#x6807;&#x9898;&#xFF0C;3.&#x7ED8;&#x5236;&#x591A;&#x6761;&#x66F2;&#x7EBF;&#x3002;</p>
+<h5 id="&#x8BBE;&#x7F6E;&#x56FE;&#x4F8B;">&#x8BBE;&#x7F6E;&#x56FE;&#x4F8B; </h5>
+<p>&#x5728; matplotlib &#x4E2D;&#xFF0C;&#x53EF;&#x901A;&#x8FC7;legend&#x51FD;&#x6570;&#x8BBE;&#x7F6E;&#x56FE;&#x4F8B;&#xFF0C;&#x8C03;&#x7528;&#x65B9;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-py">    legend()                       <span class="hljs-comment">#&#x4EE5;&#x9ED8;&#x8BA4;&#x5F62;&#x5F0F;&#x8BBE;&#x7F6E;&#x56FE;&#x4F8B;</span>
+    legend(labels)               <span class="hljs-comment">#&#x6807;&#x8BB0;&#x5DF2;&#x6709;&#x7684;&#x7ED8;&#x56FE;</span>
+    legend(handles, labels)  <span class="hljs-comment">#&#x660E;&#x786E;&#x5B9A;&#x4E49;&#x56FE;&#x4F8B;&#x4E2D;&#x7684;&#x5143;&#x7D20;</span>
+</code></pre>
+<p>&#x4EE3;&#x7801;&#x793A;&#x4F8B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-py">    <span class="hljs-comment"># &#x6807;&#x8BB0;&#x5DF2;&#x6709;&#x7684;&#x7ED8;&#x56FE;</span>
+    plt.plot([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>])
+    plt.legend([<span class="hljs-string">&apos;A simple line&apos;</span>]) 
+    plt.show()
+</code></pre>
+<pre><code class="lang-py">    <span class="hljs-comment"># &#x660E;&#x786E;&#x5B9A;&#x4E49;&#x56FE;&#x4F8B;&#x4E2D;&#x7684;&#x5143;&#x7D20;</span>
+    line1, = plt.plot([<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>],  linestyle=<span class="hljs-string">&apos;--&apos;</span>)
+    line2, = plt.plot([<span class="hljs-number">3</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>],  linewidth=<span class="hljs-number">4</span>)
+    plt.legend([line1,line2], [<span class="hljs-string">&quot;Line 1&quot;</span>,<span class="hljs-string">&quot;Line 2&quot;</span>])
+    plt.show()
+</code></pre>
+<p>&#x53EF;&#x901A;&#x8FC7;<code>loc</code>&#x53C2;&#x6570;&#x8BBE;&#x7F6E;&#x56FE;&#x4F8B;&#x4F4D;&#x7F6E;&#xFF0C;&#x901A;&#x8FC7;<code>fontsize</code>&#x8BBE;&#x7F6E;&#x5B57;&#x4F53;&#x5927;&#x5C0F;&#xFF0C;&#x901A;&#x8FC7;<code>title</code>&#x53C2;&#x6570;&#x8BBE;&#x7F6E;&#x56FE;&#x4F8B;&#x6807;&#x9898;&#xFF0C;&#x8BE6;&#x7EC6;&#x7684;&#x53C2;&#x6570;&#x914D;&#x7F6E;&#x53EF;&#x53C2;&#x89C1;<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.legend.html#matplotlib.pyplot.legend" target="_blank">&#x5B98;&#x65B9;&#x6587;&#x6863;</a>&#x3002;</p>
+<h5 id="&#x8BBE;&#x7F6E;&#x5750;&#x6807;&#x8F74;&#x53CA;&#x6807;&#x9898;">&#x8BBE;&#x7F6E;&#x5750;&#x6807;&#x8F74;&#x53CA;&#x6807;&#x9898; </h5>
+<p>&#x5728;&#x4F7F;&#x7528; matplotlib &#x6A21;&#x5757;&#x753B;&#x5750;&#x6807;&#x56FE;&#x65F6;&#xFF0C;&#x5F80;&#x5F80;&#x9700;&#x8981;&#x5BF9;&#x5750;&#x6807;&#x8F74;&#x8BBE;&#x7F6E;&#x5F88;&#x591A;&#x53C2;&#x6570;&#xFF0C;&#x8FD9;&#x4E9B;&#x53C2;&#x6570;&#x5305;&#x62EC;&#x6A2A;&#x7EB5;&#x5750;&#x6807;&#x8F74;&#x8303;&#x56F4;&#x3001;&#x5750;&#x6807;&#x8F74;&#x523B;&#x5EA6;&#x5927;&#x5C0F;&#x3001;&#x5750;&#x6807;&#x8F74;&#x540D;&#x79F0;&#x7B49;&#x7B49;&#xFF0C;&#x5728; matplotlib &#x4E2D;&#x5305;&#x542B;&#x4E86;&#x5F88;&#x591A;&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x5BF9;&#x8FD9;&#x4E9B;&#x53C2;&#x6570;&#x8FDB;&#x884C;&#x8BBE;&#x7F6E;&#x3002;</p>
+<ul>
+<li><p>plt.xlim&#x3001;plt.ylim&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x6A2A;&#x7EB5;&#x5750;&#x6807;&#x8F74;&#x8303;&#x56F4;&#xFF1B;</p>
+</li>
+<li><p>plt.xlabel&#x3001;plt.ylabel&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x5750;&#x6807;&#x8F74;&#x540D;&#x79F0;&#xFF1B;</p>
+</li>
+<li><p>plt.xticks&#x3001;plt.yticks&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x5750;&#x6807;&#x8F74;&#x523B;&#x5EA6;&#xFF1B;</p>
+</li>
+<li><p>plt.title&#x7528;&#x4E8E;&#x8BBE;&#x7F6E;&#x56FE;&#x50CF;&#x6807;&#x9898;&#x3002;</p>
+</li>
+</ul>
+<p>&#x4E0A;&#x9762;&#x7684;<code>plt</code>&#x8868;&#x793A; <code>matplotlib.pyplot</code> &#x6A21;&#x5757;&#xFF0C;&#x5373;&#x5728;&#x7A0B;&#x5E8F;&#x4E2D;&#x4EE5;<code>import matplotlib.pyplot as plt</code>&#x65B9;&#x5F0F;&#x5BFC;&#x5165; <code>matplotlib.pyplot</code> &#x6A21;&#x5757;&#x3002;</p>
+<h5 id="&#x7ED8;&#x5236;&#x591A;&#x6761;&#x66F2;&#x7EBF;">&#x7ED8;&#x5236;&#x591A;&#x6761;&#x66F2;&#x7EBF; </h5>
+<p>&#x7ED8;&#x5236;&#x591A;&#x6761;&#x66F2;&#x7EBF;&#x6709;&#x4E24;&#x79CD;&#x60C5;&#x51B5;&#xFF1A;</p>
+<p>&#x7B2C;&#x4E00;&#x79CD;&#x662F;&#x5728;&#x540C;&#x4E00;&#x5750;&#x6807;&#x7CFB;&#x4E0A;&#x7ED8;&#x5236;&#x591A;&#x6761;&#x66F2;&#x7EBF;&#xFF0C;&#x80FD;&#x591F;&#x6E05;&#x695A;&#x5730;&#x770B;&#x5230;&#x591A;&#x6761;&#x66F2;&#x7EBF;&#x7684;&#x5BF9;&#x6BD4;&#x60C5;&#x51B5;&#x3002;&#x53EF;&#x901A;&#x8FC7;&#x76F4;&#x63A5;&#x53E0;&#x52A0;&#x4F7F;&#x7528;plot&#x8FDB;&#x884C;&#x7ED8;&#x5236;&#x3002;</p>
+<p>&#x793A;&#x4F8B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-py">    <span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+    <span class="hljs-keyword">from</span> math <span class="hljs-keyword">import</span> sin, cos, radians
+    x = range(<span class="hljs-number">0</span>, <span class="hljs-number">360</span>)
+    y1 = [sin(radians(e)) <span class="hljs-keyword">for</span> e <span class="hljs-keyword">in</span> x]
+    y2 = [cos(radians(e)) <span class="hljs-keyword">for</span> e <span class="hljs-keyword">in</span> x]
+    plt.plot(x, y1, <span class="hljs-string">&apos;b-&apos;</span>)
+    plt.plot(x, y2, <span class="hljs-string">&apos;r--&apos;</span>)
+    plt.legend([<span class="hljs-string">&apos;sin(x)&apos;</span>, <span class="hljs-string">&apos;cos(x)&apos;</span>], loc=<span class="hljs-string">&apos;upper center&apos;</span>)
+    plt.xlabel(<span class="hljs-string">&apos;x&apos;</span>)         <span class="hljs-comment">#&#x8BBE;&#x7F6E; x &#x8F74;&#x6587;&#x5B57;&#x6807;&#x8BB0;</span>
+    plt.ylabel(<span class="hljs-string">&apos;sin/cos&apos;</span>)   <span class="hljs-comment">#&#x8BBE;&#x7F6E; y &#x8F74;&#x6587;&#x5B57;&#x6807;&#x8BB0;</span>
+    plt.axis([<span class="hljs-number">0</span>, <span class="hljs-number">360</span>, <span class="hljs-number">-1.0</span>, <span class="hljs-number">1.0</span>])  <span class="hljs-comment">#&#x8BBE;&#x7F6E;&#x5750;&#x6807;&#x8303;&#x56F4;</span>
+    plt.show()
+</code></pre>
+<p>&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x5C55;&#x793A;&#x56FE;&#x50CF;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
+<p><img src="pic/multiline.png" alt=""></p>
+<p>&#x7B2C;&#x4E8C;&#x79CD;&#x662F;&#x5728;&#x4E0D;&#x540C;&#x5B50;&#x56FE;&#x4E0A;&#x753B;&#x56FE;&#xFF0C;&#x591A;&#x7528;&#x4E8E;&#x5448;&#x73B0;&#x4E0D;&#x540C;&#x5185;&#x5BB9;&#x7684;&#x66F2;&#x7EBF;&#x3002;&#x9700;&#x8981;&#x7528;&#x5230;subplot&#x51FD;&#x6570;&#xFF0C;&#x5B83;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x521B;&#x5EFA;&#x5B50;&#x56FE;&#xFF0C;&#x5177;&#x4F53;&#x8C03;&#x7528;&#x65B9;&#x5F0F;&#x53EF;&#x53C2;&#x89C1;<a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html#matplotlib.pyplot.subplot" target="_blank">&#x5B98;&#x65B9;&#x6587;&#x6863;</a>&#x3002;</p>
+<p>&#x793A;&#x4F8B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-py">    <span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+    <span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+    x1 = np.linspace(<span class="hljs-number">0.0</span>, <span class="hljs-number">5.0</span>)
+    x2 = np.linspace(<span class="hljs-number">0.0</span>, <span class="hljs-number">2.0</span>)
+    y1 = np.cos(<span class="hljs-number">2</span> * np.pi * x1) * np.exp(-x1)
+    y2 = np.cos(<span class="hljs-number">2</span> * np.pi * x2)
+    plt.subplot(<span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">1</span>) <span class="hljs-comment"># &#x5F00;&#x59CB;&#x7ED8;&#x5236;&#x5B50;&#x56FE; 1</span>
+    plt.plot(x1, y1, <span class="hljs-string">&apos;o-&apos;</span>)
+    plt.title(<span class="hljs-string">&apos;A tale of 2 subplots&apos;</span>)
+    plt.ylabel(<span class="hljs-string">&apos;Damped oscillation&apos;</span>) 
+    plt.subplot(<span class="hljs-number">2</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>) <span class="hljs-comment"># &#x5F00;&#x59CB;&#x7ED8;&#x5236;&#x5B50;&#x56FE; 2</span>
+    plt.plot(x2, y2, <span class="hljs-string">&apos;.-&apos;</span>)
+    plt.xlabel(<span class="hljs-string">&apos;time (s)&apos;</span>)
+    plt.ylabel(<span class="hljs-string">&apos;Undamped&apos;</span>)
+    plt.show()
+</code></pre>
+<p>&#x4E0A;&#x8FF0;&#x4EE3;&#x7801;&#x5C55;&#x793A;&#x56FE;&#x50CF;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
+<p><img src="pic/subpic.png" alt=""></p>
+<h5 id="sir&#x6A21;&#x578B;">SIR&#x6A21;&#x578B; </h5>
+<blockquote>
+<p>SIR&#x6A21;&#x578B;&#xFF08;Susceptible Infected Recovered Model&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x4F20;&#x64AD;&#x6A21;&#x578B;&#xFF0C;&#x662F;&#x75BE;&#x75C5;&#x53CA;&#x4FE1;&#x606F;&#x4F20;&#x64AD;&#x8FC7;&#x7A0B;&#x7684;&#x62BD;&#x8C61;&#x63CF;&#x8FF0;&#x3002;&#x662F;&#x4F20;&#x67D3;&#x75C5;&#x6A21;&#x578B;&#x4E2D;&#x6700;&#x7ECF;&#x5178;&#x7684;&#x6A21;&#x578B;&#x3002;&#x6B64;&#x6A21;&#x578B;&#x80FD;&#x591F;&#x8F83;&#x4E3A;&#x7C97;&#x7565;&#x5730;&#x5C55;&#x793A;&#x51FA;&#x4E00;&#x79CD;&#x4F20;&#x67D3;&#x75C5;&#x4ECE;&#x53D1;&#x75C5;&#x5230;&#x7ED3;&#x675F;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5176;&#x6838;&#x5FC3;&#x5728;&#x4E8E;&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x3002;</p>
+</blockquote>
+<ul>
+<li>S &#x7C7B;&#xFF1A;&#x6613;&#x611F;&#x8005;&#xFF08;Susceptible&#xFF09;</li>
+<li>I &#x7C7B;&#xFF1A;&#x611F;&#x67D3;&#x8005;&#xFF08;Infective&#xFF09;</li>
+<li>R &#x7C7B;&#xFF1A;&#x79FB;&#x51FA;&#x8005;&#xFF08;Removal&#xFF09; 
+<img src="pic/SIRmodel.png" alt=""></li>
+</ul>
+<p>&#x5E38;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x7EC4;&#x8868;&#x793A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>$$
+\left{<br>     \begin{array}{lr}<br>     S&apos; = -\beta SI &amp;  \<br>     I&apos; = \beta SI-\gamma I &amp; \<br>     R&apos; = \gamma I &amp;<br>     \end{array}<br>\right.  </p>
+<p>$$</p>
+<p>&#x5176;&#x4E2D;S&#x2032;,I&#x2032;,R&#x2032;&#x5206;&#x522B;&#x8868;&#x793A;S,I,R&#x5173;&#x4E8E;&#x65F6;&#x95F4;t&#x7684;&#x5BFC;&#x6570;&#xFF0C;&#x4E0B;&#x9762;&#x5C06;&#x5176;&#x7EC4;&#x5408;&#x4E3A;&#x5411;&#x91CF;&#x5F62;&#x5F0F;&#x5E76;&#x7528;&#x51FD;&#x6570;f&#x8868;&#x793A;&#xFF0C;&#x5F97;:$$(S&apos;,I&apos;,R&apos;)=f(S,I,R)=(&#x2212;\beta SI,\beta SI&#x2212;\gamma I,\gamma I)$$ &#x5176;&#x4E2D;:&#x3B2;&#x4E3A;&#x611F;&#x67D3;&#x7CFB;&#x6570;&#xFF0C;&#x4EE3;&#x8868;&#x6613;&#x611F;&#x4EBA;&#x7FA4;&#x4E0E;&#x4F20;&#x67D3;&#x6E90;&#x63A5;&#x89E6;&#x88AB;&#x611F;&#x67D3;&#x7684;&#x6982;&#x7387;&#xFF0C;&#x5373;&#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;&#xFF1B;&#x3B3;&#x4E3A;&#x9694;&#x79BB;(&#x6062;&#x590D;)&#x7CFB;&#x6570;&#xFF0C;&#x4E00;&#x822C;&#x5BF9;&#x5176;&#x5012;&#x6570;1/&#x3B3;&#x66F4;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x4EE3;&#x8868;&#x4E86;&#x5E73;&#x5747;&#x611F;&#x67D3;&#x65F6;&#x95F4;&#xFF1B;S,I&#x5B9A;&#x4E49;&#x89C1;&#x4E0A;&#xFF0C;S(0)&#x4E3A;&#x521D;&#x59CB;&#x6613;&#x611F;&#x4EBA;&#x6570;&#xFF0C;I(0)&#x4E3A;&#x521D;&#x59CB;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x3002;</p>
+<h5 id="&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09;">&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#xFF08;&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#xFF09; </h5>
+<p>&#x6839;&#x636E;&#x6B27;&#x62C9;&#x6CD5;&#x548C;&#x68AF;&#x5F62;&#x516C;&#x5F0F;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x516C;&#x5F0F;&#xFF0C;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x5F62;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A; <img src="pic/improvedEuler.png" alt=""></p>
+<p>&#x4EE3;&#x7801;&#x793A;&#x4F8B;&#x5982;&#x4E0B;:</p>
+<pre><code class="lang-py">    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">trapezoidalEuler</span><span class="hljs-params">(f, x, y0)</span>:</span>
+        y = [y0] * len(x)
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(x)<span class="hljs-number">-1</span>):
+            h = x[k+<span class="hljs-number">1</span>]-x[k]
+            y_p = y[k] + h * f(x[k], y[k])
+            y_c = y[k] + h * f(x[k+<span class="hljs-number">1</span>], y_p)
+            y[k+<span class="hljs-number">1</span>] = <span class="hljs-number">1</span>/<span class="hljs-number">2</span> * (y_p + y_c)
+        <span class="hljs-keyword">return</span> y  <span class="hljs-comment"># y = [y0, y1, ..., yn]</span>
+</code></pre>
+<h4 id="&#x7F16;&#x7A0B;&#x8981;&#x6C42;">&#x7F16;&#x7A0B;&#x8981;&#x6C42; </h4>
+<p>&#x5229;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#x5B8C;&#x5584;SIR&#x6A21;&#x578B;&#xFF0C;&#x5E76;&#x5F15;&#x5165;&#x9694;&#x79BB;&#x673A;&#x5236;&#xFF0C;&#x5B9E;&#x73B0;SIR&#x7C7B;&#x5E76;&#x7F16;&#x5199;&#x65B9;&#x6CD5;<code>&#x2219;solve_with_quarantine(self,x)</code>: &#x5B9E;&#x73B0;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;(&#x68AF;&#x5F62;&#x6CD5;&#xFF0C;&#x4E24;&#x6B65;&#x8FED;&#x4EE3;&#xFF09;&#xFF0C;&#x5E76;&#x5F15;&#x5165;&#x4E0D;&#x540C;&#x7684;&#x9694;&#x79BB;&#x673A;&#x5236;&#xFF08;&#x89C1;&#x4E0B;&#xFF09;&#xFF0C;&#x5176;&#x4E2D;&#x53C2;&#x6570;x&#x662F;&#x5217;&#x8868;[0, .., t-1]&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x8FD4;&#x56DE;t&#x5929;&#x5185;&#x6BCF;&#x5929;&#x611F;&#x67D3;&#x4EBA;&#x6570;&#x7684;&#x5217;&#x8868; (&#x5217;&#x8868;&#x5927;&#x5C0F;&#x4E3A;&#x5929;&#x6570;t)&#x3002;&#xFF08;&#x6CE8;&#x610F;&#xFF1A;&#x672C;&#x573A;&#x666F;&#x4E2D;&#x5E94;&#x7528;&#x6539;&#x8FDB;&#x7684;&#x6B27;&#x62C9;&#x6CD5;&#x65F6;&#xFF0C;<code>f(x[k],y[k])</code>&#x548C;<code>f(x[k+1],y_p)</code>&#x4E2D;<code>x[k],x[k+1]</code>&#x5BF9;f&#x51FD;&#x6570;&#x7684;&#x8BA1;&#x7B97;&#x6CA1;&#x6709;&#x5F71;&#x54CD;&#xFF09;</p>
+<p><strong>&#x4E0D;&#x540C;&#x7684;&#x9694;&#x79BB;&#x673A;&#x5236;</strong></p>
+<p>&#x2460;&#x672A;&#x5B9E;&#x65BD;&#x9694;&#x79BB;&#xFF1A; gamma = 1/25&#xFF0C;&#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;<br>&#x2461;&#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;gamma = 1/15&#xFF0C;&#x6309;&#x6700;&#x957F;15&#x5929;&#x53D1;&#x75C5;&#x786E;&#x8BCA;&#x540E;&#x88AB;&#x9694;&#x79BB;</p>
+<p>&#x2462;&#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;gamma = 1/3&#xFF0C;&#x5E73;&#x5747;3&#x5929;&#x88AB;&#x9694;&#x79BB;</p>
+<p><strong>&#x56FE;&#x5F62;&#x7ED8;&#x5236;</strong></p>
+<p>&#x8BF7;&#x8865;&#x5168;&#x53F3;&#x4FA7;&#x7F16;&#x7A0B;&#x6846;&#x4E2D;&#x4EE3;&#x7801;&#xFF0C;&#x5728;&#x540C;&#x4E00;&#x5750;&#x6807;&#x7CFB;&#x4E0A;&#x7ED8;&#x5236;&#x4E0A;&#x8FF0;&#x4E09;&#x79CD;&#x4E0D;&#x540C;&#x9694;&#x79BB;&#x673A;&#x5236;&#xFF08;&#x542B;&#x672A;&#x5B9E;&#x65BD;&#x9694;&#x79BB;&#xFF09;&#x4E0B;&#x65B0;&#x51A0;&#x75C5;&#x6BD2;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x66F2;&#x7EBF;&#xFF0C;&#x5F62;&#x6210;&#x8D8B;&#x52BF;&#x5BF9;&#x6BD4;&#x5206;&#x6790;&#x56FE;&#x3002;</p>
+<ul>
+<li>&#x56FE;&#x7247;&#x5927;&#x5C0F;&#x8BBE;&#x4E3A;10*8 (&#x5355;&#x4F4D;&#x4E3A;inch)&#xFF1B;</li>
+<li>&#x6CE8;&#x610F;&#x63D0;&#x4EA4;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#x4E0D;&#x8981;&#x5305;&#x542B;show&#x8BED;&#x53E5;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x5F71;&#x54CD;&#x81EA;&#x52A8;&#x8BC4;&#x6D4B;</li>
+</ul>
+<h4 id="&#x6D4B;&#x8BD5;&#x8BF4;&#x660E;">&#x6D4B;&#x8BD5;&#x8BF4;&#x660E; </h4>
+<p>&#x5E73;&#x53F0;&#x5C06;&#x8FD0;&#x884C;&#x7528;&#x6237;&#x8865;&#x5168;&#x7684;&#x4EE3;&#x7801;&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5C06;&#x5B58;&#x50A8;&#x7684; src/step3/student/result.png &#x56FE;&#x50CF;&#x4E0E;&#x6807;&#x51C6;&#x7B54;&#x6848;&#x56FE;&#x50CF;&#x6BD4;&#x8F83;&#xFF0C;&#x7136;&#x540E;&#x5224;&#x65AD;&#x7528;&#x6237;&#x7F16;&#x5199;&#x4EE3;&#x7801;&#x662F;&#x5426;&#x6B63;&#x786E;:</p>
+<ul>
+<li>&#x82E5;&#x753B;&#x56FE;&#x6B63;&#x786E;&#xFF0C;&#x6D4B;&#x8BD5;&#x96C6;&#x5C06;&#x8F93;&#x51FA;&#xFF1A;&#x795D;&#x8D3A;&#xFF01;&#x56FE;&#x7247;&#x4E0E;&#x9884;&#x671F;&#x8F93;&#x51FA;&#x4E00;&#x81F4;</li>
+<li>&#x5426;&#x5219;&#xFF0C;&#x6D4B;&#x8BD5;&#x96C6;&#x5C06;&#x8F93;&#x51FA;&#xFF1A;&#x56FE;&#x7247;&#x4E0E;&#x9884;&#x671F;&#x8F93;&#x51FA;&#x4E0D;&#x4E00;&#x81F4;&#xFF0C;&#x8BF7;&#x7EE7;&#x7EED;&#x52AA;&#x529B;&#xFF01;</li>
+</ul>
+<hr>
+<p>&#x5F00;&#x59CB;&#x4F60;&#x7684;&#x4EFB;&#x52A1;&#x5427;&#xFF0C;&#x795D;&#x4F60;&#x6210;&#x529F;&#xFF01;</p>
+<p>framework.py</p>
+<pre><code class="lang-py"><span class="hljs-comment">#-*- coding : utf-8 -*-</span>
+<span class="hljs-comment"># coding: utf-8</span>
+<span class="hljs-keyword">import</span> matplotlib
+matplotlib.use(<span class="hljs-string">&apos;Agg&apos;</span>)
+<span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+<span class="hljs-comment"># &#x91C7;&#x7528;matplotlib&#x4F5C;&#x56FE;&#x65F6;&#x9ED8;&#x8BA4;&#x8BBE;&#x7F6E;&#x4E0B;&#x662F;&#x65E0;&#x6CD5;&#x663E;&#x793A;&#x4E2D;&#x6587;&#x7684;&#xFF0C;&#x51E1;&#x662F;&#x6C49;&#x5B57;&#x90FD;&#x4F1A;&#x663E;&#x793A;&#x6210;&#x65B9;&#x5757;&#x3002;</span>
+<span class="hljs-comment"># &#x5B9E;&#x9645;&#x4E0A;&#xFF0C;matplotlib&#x662F;&#x652F;&#x6301;unicode&#x7F16;&#x7801;&#x7684;&#xFF0C;&#x4E0D;&#x80FD;&#x6B63;&#x5E38;&#x663E;&#x793A;&#x6C49;&#x5B57;&#x4E3B;&#x8981;&#x662F;&#x6CA1;&#x6709;&#x627E;&#x5230;&#x5408;&#x9002;&#x7684;&#x4E2D;&#x6587;&#x5B57;&#x4F53;&#x3002;</span>
+<span class="hljs-keyword">from</span> pylab <span class="hljs-keyword">import</span> mpl
+mpl.rcParams[<span class="hljs-string">&apos;font.sans-serif&apos;</span>]= [<span class="hljs-string">&apos;SimHei&apos;</span>]
+<span class="hljs-comment"># &#x89E3;&#x51B3;&#x8D1F;&#x53F7;&#x663E;&#x793A;&#x95EE;&#x9898;</span>
+matplotlib.rcParams[<span class="hljs-string">&apos;axes.unicode_minus&apos;</span>]=<span class="hljs-keyword">False</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SIR</span><span class="hljs-params">()</span>:</span>
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span><span class="hljs-params">(self, beta, gamma, y0)</span>:</span>
+        self.beta = beta; self.gamma = gamma; self.y0 = y0  <span class="hljs-comment"># &#x53C2;&#x6570;&#x5C5E;&#x6027;</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">f</span><span class="hljs-params">(self, y, gamma)</span>:</span> <span class="hljs-comment">#  y&#x4E3A;&#x5F53;&#x524D;&#x72B6;&#x6001;&#xFF0C;&#x5217;&#x8868;[S,I,R]</span>
+        S = y[<span class="hljs-number">0</span>]
+        I = y[<span class="hljs-number">1</span>]
+        R = y[<span class="hljs-number">2</span>]
+        <span class="hljs-keyword">return</span> [-self.beta * S * I, self.beta * S * I - gamma * I, gamma * I]
+
+    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">solve_with_quarantine</span><span class="hljs-params">(self, x, gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>)</span>:</span>
+        <span class="hljs-comment"># ------------------begin-----------------------</span>
+        y = [y0] * len(t);
+        <span class="hljs-keyword">for</span> k <span class="hljs-keyword">in</span> range(len(t)<span class="hljs-number">-1</span>):
+            h = t[k+<span class="hljs-number">1</span>]-t[k]
+            y_p = np.array(y[k] + h * np.array(self.f(y[k], gamma)))
+            y_c = np.array(y[k] + h * np.array(self.f(y_p, gamma)))
+            y[k+<span class="hljs-number">1</span>] = (y_p + y_c)/<span class="hljs-number">2</span>
+        <span class="hljs-keyword">return</span> y
+        <span class="hljs-comment"># -------------------end------------------------</span>
+
+N     = <span class="hljs-number">1e8</span>             <span class="hljs-comment"># &#x6B66;&#x6C49;&#x603B;&#x4EBA;&#x6570;&#xFF1A;1000&#x4E07;&#x4EBA;</span>
+gamma = <span class="hljs-number">1</span>/<span class="hljs-number">25</span>            <span class="hljs-comment"># &#x5047;&#x8BBE;&#x80BA;&#x708E;&#x5E73;&#x5747;25&#x5929;&#x6CBB;&#x6108;&#xFF08;15&#x5929;&#x6F5C;&#x4F0F;+10&#x5929;&#x6CBB;&#x7597;&#xFF09;</span>
+y0    = [N<span class="hljs-number">-1</span>, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>]     <span class="hljs-comment"># &#x521D;&#x59CB;&#x53D1;&#x75C5;1&#x4EBA;&#xFF0C;&#x5176;&#x4ED6;&#x4EBA;&#x5458;&#x6B63;&#x5E38; [S0, I0, R0]</span>
+beta = <span class="hljs-number">1.0</span>/N            <span class="hljs-comment"># &#x5E73;&#x5747;&#x4F20;&#x67D3;&#x7387;</span>
+t   = range(<span class="hljs-number">0</span>, <span class="hljs-number">60</span>, <span class="hljs-number">1</span>)   <span class="hljs-comment"># &#x6A21;&#x62DF;60&#x5929;&#x7684;&#x53D1;&#x5C55;&#x60C5;&#x51B5;&#xFF0C;&#x5355;&#x4F4D;&#x65F6;&#x95F4;&#x4E3A;1&#x5929;</span>
+simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+
+<span class="hljs-comment"># ------------------begin-----------------------</span>
+<span class="hljs-comment">#1. &#x8BBE;&#x7F6E;&#x56FE;&#x5F62;&#x5927;&#x5C0F;</span>
+fig = plt.figure(figsize=(<span class="hljs-number">10</span>, <span class="hljs-number">8</span>))
+
+<span class="hljs-comment">#2. &#x7ED8;&#x5236;&#x66F2;&#x7EBF;&#xFF1A;&#x6A2A;&#x8F74;&#x662F;&#x65F6;&#x95F4;/&#x5929;&#xFF0C;&#x7EB5;&#x8F74;&#x662F;&#x611F;&#x67D3;&#x4EBA;&#x6570;</span>
+x = t
+simulation = SIR(beta=beta, gamma=gamma, y0=y0)
+y1 = simulation.solve_with_quarantine(t)
+
+gamma1 = <span class="hljs-number">1</span>/<span class="hljs-number">15</span>            <span class="hljs-comment"># &#x9694;&#x79BB;&#x786E;&#x8BCA;&#x60A3;&#x8005;&#xFF1A;&#x6309;&#x6700;&#x957F;15&#x5929;&#x53D1;&#x75C5;&#x786E;&#x8BCA;&#x540E;&#x88AB;&#x9694;&#x79BB;</span>
+y2 = simulation.solve_with_quarantine(t, gamma1)
+
+gamma1 = <span class="hljs-number">1</span>/<span class="hljs-number">3</span>            <span class="hljs-comment"># &#x9694;&#x79BB;&#x7591;&#x4F3C;&#x4EBA;&#x5458;&#xFF1A;&#x6309;&#x5E73;&#x5747;3&#x5929;&#x88AB;&#x9694;&#x79BB;</span>
+y3 = simulation.solve_with_quarantine(t, gamma1)
+
+
+<span class="hljs-comment">#3. &#x8BBE;&#x7F6E;&#x56FE;&#x9898;&apos;&#x672A;&#x9694;&#x79BB;&#x4E0E;&#x9694;&#x79BB;&#x673A;&#x5236;&#x4E0B;&#x65B0;&#x51A0;&#x75C5;&#x6BD2;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5BF9;&#x6BD4;&#x5206;&#x6790;&apos;&#x3001;</span>
+<span class="hljs-comment">#   &#x6A2A;&#x8F74;&#x6807;&#x7B7E;&apos;&#x65F6;&#x95F4;/&#x5929;&apos;&#x3001;&#x7EB5;&#x8F74;&#x6807;&#x7B7E;&apos;&#x4EBA;&#x6570;&apos;&#x3001;</span>
+<span class="hljs-comment">#   &#x56FE;&#x5217;&#x8BF4;&#x660E;(&apos;&#x672A;&#x5B9E;&#x65BD;&#x9694;&#x79BB;&apos;, &apos;&#x786E;&#x8BCA;&#x9694;&#x79BB;&apos;, &apos;&#x7591;&#x4F3C;&#x9694;&#x79BB;&apos;, &#x5206;&#x522B;&#x5BF9;&#x5E94;&#x4E09;&#x6761;&#x66F2;&#x7EBF;)</span>
+
+plt.plot(x, [y[<span class="hljs-number">1</span>] <span class="hljs-keyword">for</span> y <span class="hljs-keyword">in</span> y1], label=<span class="hljs-string">&apos;&#x672A;&#x5B9E;&#x65BD;&#x9694;&#x79BB;&apos;</span>)
+plt.plot(x, [y[<span class="hljs-number">1</span>] <span class="hljs-keyword">for</span> y <span class="hljs-keyword">in</span> y2], label=<span class="hljs-string">&apos;&#x786E;&#x8BCA;&#x9694;&#x79BB;&apos;</span>)
+plt.plot(x, [y[<span class="hljs-number">1</span>] <span class="hljs-keyword">for</span> y <span class="hljs-keyword">in</span> y3], label=<span class="hljs-string">&apos;&#x7591;&#x4F3C;&#x9694;&#x79BB;&apos;</span>)
+plt.title(<span class="hljs-string">&apos;&#x672A;&#x9694;&#x79BB;&#x4E0E;&#x9694;&#x79BB;&#x673A;&#x5236;&#x4E0B;&#x65B0;&#x51A0;&#x75C5;&#x6BD2;&#x53D1;&#x5C55;&#x8D8B;&#x52BF;&#x5BF9;&#x6BD4;&#x5206;&#x6790;&apos;</span>)
+plt.xlabel(<span class="hljs-string">&apos;&#x65F6;&#x95F4;/&#x5929;&apos;</span>)
+plt.ylabel(<span class="hljs-string">&apos;&#x4EBA;&#x6570;&apos;</span>)
+plt.legend()
+
+<span class="hljs-comment"># ------------------end-----------------------</span>
+
+<span class="hljs-comment"># &#x8BBE;&#x7F6E;y&#x8F74;&#x523B;&#x5EA6;</span>
+Vy = [<span class="hljs-number">1.0e6</span>, <span class="hljs-number">5.0e6</span>] + [i * <span class="hljs-number">1.e7</span> <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(<span class="hljs-number">11</span>)]
+plt.yticks(Vy, [<span class="hljs-string">&apos;%d&apos;</span>%e <span class="hljs-keyword">for</span> e <span class="hljs-keyword">in</span> Vy])
+
+plt.savefig(<span class="hljs-string">&apos;src/step6/student/result.png&apos;</span>)
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="lei-yu-dui-xiang.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 类与对象">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"新型冠状病毒疫情数据分析与可视化-面向对象版","level":"1.4","depth":1,"previous":{"title":"类与对象","level":"1.3","depth":1,"path":"lei-yu-dui-xiang.md","ref":"lei-yu-dui-xiang.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"xin-xing-guan-zhuang-bing-du-yi-qing-shu-ju-fen-xi-yu-ke-shi-5316-mian-xiang-dui-xiang-ban.md","mtime":"2023-11-16T09:39:54.641Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-11-16T10:06:29.791Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
